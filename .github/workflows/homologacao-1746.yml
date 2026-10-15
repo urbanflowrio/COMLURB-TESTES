@@ -1,0 +1,39 @@
+name: Homologacao Comparativo 1746
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/homologacao-1746.yml'
+      - '1746-comparativo/**'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  regressao-oficial:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter HUB oficial sem alteracoes
+        uses: actions/checkout@v4
+        with:
+          repository: urbanflowrio/COMLURB
+          ref: main
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - name: Instalar dependencias
+        run: npm ci --no-audit --no-fund
+      - name: Executar regressao completa
+        run: npm run test:regression
+  validar-comparativo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter ambiente de testes
+        uses: actions/checkout@v4
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Validar dados e relacoes
+        run: node 1746-comparativo/auditoria-automatizada.js
