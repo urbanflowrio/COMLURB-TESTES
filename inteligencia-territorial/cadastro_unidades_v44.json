@@ -1,6 +1,6 @@
 {
   "fonte": "ENDERECOS_ATUALIZADOS.xlsx / ENDEREÇOS / SETOR NOMESETOR PAISETOR",
-  "status": "cadastro administrativo; subrecortes SIURB permanecem não homologados",
+  "status": "Cadastro administrativo com subdivisões territoriais por AP confirmadas pela responsável; sem alteração das etiquetas cartográficas",
   "unidades": {
     "DLU": {
       "BG16F": [
@@ -174,12 +174,12 @@
       "UDS-O 4": [
         null,
         "UDS-O",
-        "Subdivisão territorial SIURB; vínculo operacional pendente"
+        "Subdivisão territorial por AP confirmada; manter rótulo original no mapa"
       ],
       "UDS-O 5": [
         null,
         "UDS-O",
-        "Subdivisão territorial SIURB; vínculo operacional pendente"
+        "Subdivisão territorial por AP confirmada; manter rótulo original no mapa"
       ],
       "SEM GERÊNCIA DEFINIDA": [
         null,
@@ -207,12 +207,12 @@
       "UGU-O (BANGU)": [
         null,
         "UGU-O",
-        "Identificador territorial SIURB"
+        "Subdivisão territorial por AP confirmada; manter rótulo original no mapa"
       ],
       "UGU-O (SANTA CRUZ)": [
         null,
         "UGU-O",
-        "Identificador territorial SIURB"
+        "Subdivisão territorial por AP confirmada; manter rótulo original no mapa"
       ]
     }
   }

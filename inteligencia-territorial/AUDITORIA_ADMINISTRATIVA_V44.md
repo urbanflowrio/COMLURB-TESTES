@@ -6,8 +6,11 @@ Data: 16/10/2026. Fontes: planilha **ENDERECOS_ATUALIZADOS.xlsx**, aba ENDEREÇO
 | --- | --- | --- | --- |
 | DLU | 5 superintendências e 32 gerências correspondentes ao mapa | 32 códigos gerenciais | **32/32 conciliados** em código e nome; hierarquia oficial identificada. Há subdivisões/adjuntas adicionais no cadastro, fora da geometria consolidada. |
 | UCV | 6 gerências subordinadas à coordenadoria UCV | 6 gerências | **6/6 conciliadas**; cruzamento de AP/bairro é *interseção geométrica*, não responsabilidade oficial. |
-| UCS | 3 divisões: UDS-N, UDS-S, UDS-O | 4 territórios: UDS-N, UDS-S, UDS-O 4, UDS-O 5; e 1 feição sem gerência | N/S coincidem; **UDS-O 4/5 não são códigos administrativos do cadastro**. Não afirmar automaticamente que representam divisões formais ou que substituem UDS-O. |
-| UGU | 4 gerências subordinadas à UGU: UGU-N/S/B/O | 5 etiquetas de mapa: UGU-N/S/B, UGU-O (BANGU), UGU-O (SANTA CRUZ) | N/S/B coincidem. **UGU-O se apresenta dividida em duas etiquetas territoriais**, sem correspondência cadastral direta; vínculo provável a UGU-O indicado apenas como agrupamento de análise, **não como reclassificação homologada**. |
+| UCS | 3 divisões: UDS-N, UDS-S, UDS-O | 4 territórios: UDS-N, UDS-S, UDS-O 4, UDS-O 5; e 1 feição sem gerência | N/S coincidem. **UDS-O 4 e UDS-O 5 são subdivisões territoriais por AP, conforme esclarecimento da responsável**; manter os rótulos e os filtros atuais, sem tratá-las como novas divisões administrativas. |
+| UGU | 4 gerências subordinadas à UGU: UGU-N/S/B/O | 5 etiquetas de mapa: UGU-N/S/B, UGU-O (BANGU), UGU-O (SANTA CRUZ) | N/S/B coincidem. **UGU-O (BANGU) e UGU-O (SANTA CRUZ) são recortes territoriais por AP de UGU-O, conforme esclarecimento da responsável**. Manter essas etiquetas no mapa, sem criar novas gerências administrativas. |
+
+## Decisão funcional confirmada
+As subdivisões `UDS-O 4`, `UDS-O 5`, `UGU-O (BANGU)` e `UGU-O (SANTA CRUZ)` existem por recorte de Área de Planejamento (AP). **Preservar exatamente a nomenclatura e o comportamento anteriores do mapa**; não unificar nem renomear filtros e polígonos. Essa confirmação operacional não altera a hierarquia formal do cadastro.
 
 ## Hierarquia comprovada
 - DLU → LRB, LRC, LRN, LRO, LRS → 32 gerências cujos nomes e vínculos constam em `cadastro_unidades_v44.json`.
@@ -18,10 +21,10 @@ Data: 16/10/2026. Fontes: planilha **ENDERECOS_ATUALIZADOS.xlsx**, aba ENDEREÇO
 
 ## Pendências
 1. **UCV:** 260 pares bairro×gerência por interseção espacial e 64 combinações bairro/AP com sobreposição; não equivalem à atribuição administrativa.
-2. **UCS:** registrar e resolver a feição `SEM GERÊNCIA DEFINIDA`. Confirmar se `UDS-O 4` e `UDS-O 5` são recortes válidos de `UDS-O`, com vigência e responsabilidade.
-3. **UGU:** homologar a relação entre as etiquetas `UGU-O (BANGU)` / `UGU-O (SANTA CRUZ)` e o cadastro `UGU-O`.
+2. **UCS:** resolver a feição `SEM GERÊNCIA DEFINIDA`. Os rótulos `UDS-O 4` e `UDS-O 5` são subdivisões por AP confirmadas pela responsável e permanecem como estão no mapa; a auditoria documental de vigência pode prosseguir separadamente.
+3. **UGU:** manter `UGU-O (BANGU)` e `UGU-O (SANTA CRUZ)` como subdivisões territoriais por AP de `UGU-O`, conforme confirmação da responsável; sem reclassificação administrativa.
 4. **DLU:** diferenças pré-existentes entre o mapa histórico do HUB e o SIURB: 54 bairros em gerência e 51 em superintendência. Requer confirmação de fonte vigente, não substituição automática.
 5. Os bairros foram associados a códigos territoriais, mas ainda **não existe homologação independente de atribuição formal bairro→gerência**.
 
 ## Decisão
-Conciliação de **códigos e hierarquia** DLU e UCV concluída. UCS e UGU com divergências documentadas. O funcionamento do mapa no tablet não confere homologação administrativa. **V4.4 permanece em testes; não publicar no HUB oficial.**
+Conciliação de **códigos e hierarquia** DLU e UCV concluída. UCS e UGU com subdivisões por AP esclarecidas e preservadas, sem mudanças de mapa; permanece uma feição UCS sem gerência definida. O funcionamento do mapa no tablet não confere homologação administrativa. **V4.4 permanece em testes; não publicar no HUB oficial.**
