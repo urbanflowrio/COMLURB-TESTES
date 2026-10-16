@@ -1,0 +1,32 @@
+name: Verificar sintaxe do mapa territorial
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'inteligencia-territorial/index.html'
+      - '.github/workflows/validar-mapa-v422.yml'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extrair Javascript e validar sintaxe
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          html=Path('inteligencia-territorial/index.html').read_text()
+          blocks=re.findall(r'<script(?:\s[^>]*)?>([\s\S]*?)</script>',html)
+          assert blocks,'Nenhum script embutido'
+          Path('/tmp/mapa.js').write_text('\n'.join(blocks))
+          print('Blocos JS embutidos:',len(blocks))
+          for x in ['ucs.geojson','ugu.geojson']:
+              import json
+              d=json.loads(Path('inteligencia-territorial',x).read_text())
+              assert d['type']=='FeatureCollection' and len(d['features'])>=160
+              print(x,len(d['features']))
+          PY
+          node --check /tmp/mapa.js
