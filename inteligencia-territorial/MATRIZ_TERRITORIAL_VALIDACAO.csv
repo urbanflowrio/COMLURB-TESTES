@@ -1,0 +1,840 @@
+﻿unidade,codigo_territorial,bairro,ap,origem,situacao
+UCS,UDS-N,FREGUESIA (ILHA),3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,TURIACU,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,GALEAO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,PORTUGUESA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,VIGARIO GERAL,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,JARDIM AMERICA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,JARDIM CARIOCA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,PENHA CIRCULAR,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,ANCHIETA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,PARQUE COLUMBIA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,PRAIA DA BANDEIRA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,ACARI,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,COSTA BARROS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,GUADALUPE,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,HONORIO GURGEL,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,ZUMBI,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,RIBEIRA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,COELHO NETO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,BARROS FILHO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,RICARDO DE ALBUQUERQUE,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,VAZ LOBO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,PADRE MIGUEL,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,CIDADE UNIVERSITARIA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,ROCHA MIRANDA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,RAMOS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,BENTO RIBEIRO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,VILA KOSMOS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,MARECHAL HERMES,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,VICENTE DE CARVALHO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,ENGENHO DA RAINHA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,COMPLEXO DO ALEMAO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,TOMAS COELHO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,SANTISSIMO,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,OSVALDO CRUZ,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,SANTA CRUZ,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,MAGALHAES BASTOS,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,CAVALCANTI,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,HIGIENOPOLIS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,MANGUINHOS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,ENGENHEIRO LEAL,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,PILARES,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,DEL CASTILHO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,CASCADURA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,MARIA DA GRACA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,CAMPINHO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,ABOLICAO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,SENADOR VASCONCELOS,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,COSMOS,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,JACAREZINHO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,SANTO CRISTO,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,PRACA SECA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,BENFICA,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,ENGENHO DE DENTRO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,VASCO DA GAMA,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,INHOAIBA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,INHOAIBA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,JACARE,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,ENCANTADO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,ROCHA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,MEIER,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,GAMBOA,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,SAMPAIO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,RIACHUELO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,SAUDE,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,ENGENHO NOVO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,MANGUEIRA,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,TAQUARA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,AGUA SANTA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,LINS DE VASCONCELOS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,CATUMBI,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,FREGUESIA (JACAREPAGUA),4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,CIDADE NOVA,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,PRACA DA BANDEIRA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,VILA ISABEL,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,MARACANA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,RIO COMPRIDO,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,ESTACIO,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,PECHINCHA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,CATETE,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,LARANJEIRAS,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,GUARATIBA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,ALTO DA BOA VISTA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,COSME VELHO,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,JACAREPAGUA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,BOTAFOGO,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,URCA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,SEPETIBA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,JACAREPAGUA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,JACAREPAGUA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,CAMORIM,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,HUMAITA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,GARDENIA AZUL,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,JARDIM BOTANICO,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,LEME,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,LAGOA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,ITANHANGA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,DEODORO,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,BARRA DA TIJUCA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,LAPA,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,IPANEMA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,ROCINHA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,PEDRA DE GUARATIBA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,VILA KENNEDY,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,ILHA DE GUARATIBA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,BARRA OLIMPICA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,GRUMARI,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,CAJU,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,BARRA OLIMPICA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,PARADA DE LUCAS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,CORDOVIL,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,GERICINO,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,JABOUR,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,BRAS DE PINA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,BRAS DE PINA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,VISTA ALEGRE,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,VISTA ALEGRE,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,VISTA ALEGRE,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,VILA DA PENHA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,VILA DA PENHA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,SEM GERÊNCIA DEFINIDA,PAQUETA,1,GeoJSON bairro SIURB de referência,SEM GERÊNCIA DEFINIDA
+UCS,UDS-N,BANCARIOS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,TAUA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,MONERO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,COCOTA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,PAVUNA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,BONSUCESSO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,INHAUMA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,JARDIM GUANABARA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,SANTISSIMO,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,CACUIA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,PITANGUEIRAS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,PENHA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,MADUREIRA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,PARQUE ANCHIETA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,COLEGIO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,OLARIA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,MARE,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,QUINTINO BOCAIUVA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,VILA MILITAR,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,SENADOR CAMARA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,REALENGO,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,PACIENCIA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,CAMPO DOS AFONSOS,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,PIEDADE,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,VILA VALQUEIRE,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,JARDIM SULACAP,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,SENADOR VASCONCELOS,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,COSMOS,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,CACHAMBI,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,SAO CRISTOVAO,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,TODOS OS SANTOS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,GRAJAU,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,CENTRO,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,SAO FRANCISCO XAVIER,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,TANQUE,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,TAQUARA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,FREGUESIA (JACAREPAGUA),4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,ANDARAI,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,GLORIA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,FLAMENGO,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,SANTA TERESA,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,ANIL,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,TIJUCA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,VARGEM GRANDE,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,CURICICA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,CIDADE DE DEUS,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,JACAREPAGUA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,CAMORIM,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,VARGEM PEQUENA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,LEBLON,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,COPACABANA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,GAVEA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,SAO CONRADO,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-N,IRAJA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,RECREIO DOS BANDEIRANTES,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-S,VIDIGAL,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,JOA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,BARRA DE GUARATIBA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,CAMPO GRANDE,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,CAMPO GRANDE,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 5,BANGU,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCS,UDS-O 4,BARRA OLIMPICA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,FREGUESIA (ILHA),3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,TURIACU,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,GALEAO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,PORTUGUESA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,VIGARIO GERAL,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,JARDIM AMERICA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,JARDIM CARIOCA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,PENHA CIRCULAR,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,ANCHIETA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,PARQUE COLUMBIA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,PRAIA DA BANDEIRA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,ACARI,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,COSTA BARROS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,GUADALUPE,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,HONORIO GURGEL,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,ZUMBI,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,RIBEIRA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,COELHO NETO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,BARROS FILHO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,RICARDO DE ALBUQUERQUE,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,VAZ LOBO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (BANGU),PADRE MIGUEL,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,CIDADE UNIVERSITARIA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,ROCHA MIRANDA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,RAMOS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,BENTO RIBEIRO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,VILA KOSMOS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,MARECHAL HERMES,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,VICENTE DE CARVALHO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,ENGENHO DA RAINHA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,COMPLEXO DO ALEMAO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,TOMAS COELHO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),SANTISSIMO,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,OSVALDO CRUZ,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),SANTA CRUZ,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (BANGU),MAGALHAES BASTOS,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,CAVALCANTI,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,HIGIENOPOLIS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,MANGUINHOS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,ENGENHEIRO LEAL,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,PILARES,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,DEL CASTILHO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,CASCADURA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,MARIA DA GRACA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,CAMPINHO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,ABOLICAO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),SENADOR VASCONCELOS,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),COSMOS,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,JACAREZINHO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,SANTO CRISTO,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,PRACA SECA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,BENFICA,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,ENGENHO DE DENTRO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,VASCO DA GAMA,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),INHOAIBA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),INHOAIBA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,JACARE,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,ENCANTADO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,ROCHA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,MEIER,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,GAMBOA,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,SAMPAIO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,RIACHUELO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,SAUDE,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,ENGENHO NOVO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,MANGUEIRA,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,TAQUARA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,AGUA SANTA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,LINS DE VASCONCELOS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,CATUMBI,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,FREGUESIA (JACAREPAGUA),4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,CIDADE NOVA,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,PRACA DA BANDEIRA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,VILA ISABEL,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,MARACANA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,RIO COMPRIDO,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,ESTACIO,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,PECHINCHA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,CATETE,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,LARANJEIRAS,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),GUARATIBA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,ALTO DA BOA VISTA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,COSME VELHO,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,JACAREPAGUA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,BOTAFOGO,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,URCA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),SEPETIBA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,JACAREPAGUA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,JACAREPAGUA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,CAMORIM,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,HUMAITA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,GARDENIA AZUL,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,JARDIM BOTANICO,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,LEME,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,LAGOA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,ITANHANGA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (BANGU),DEODORO,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,BARRA DA TIJUCA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,LAPA,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,IPANEMA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,ROCINHA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),PEDRA DE GUARATIBA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (BANGU),VILA KENNEDY,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),ILHA DE GUARATIBA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,BARRA OLIMPICA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,GRUMARI,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,CAJU,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,BARRA OLIMPICA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,PARADA DE LUCAS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,CORDOVIL,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (BANGU),GERICINO,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (BANGU),JABOUR,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,BRAS DE PINA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,BRAS DE PINA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,VISTA ALEGRE,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,VISTA ALEGRE,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,VISTA ALEGRE,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,VILA DA PENHA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,VILA DA PENHA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,PAQUETA,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,BANCARIOS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,TAUA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,MONERO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,COCOTA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,PAVUNA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,BONSUCESSO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,INHAUMA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,JARDIM GUANABARA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),SANTISSIMO,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,CACUIA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,PITANGUEIRAS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,PENHA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,MADUREIRA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,PARQUE ANCHIETA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,COLEGIO,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,OLARIA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,MARE,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,QUINTINO BOCAIUVA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (BANGU),VILA MILITAR,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (BANGU),SENADOR CAMARA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (BANGU),REALENGO,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),PACIENCIA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,CAMPO DOS AFONSOS,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,PIEDADE,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,VILA VALQUEIRE,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (BANGU),JARDIM SULACAP,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),SENADOR VASCONCELOS,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),COSMOS,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,CACHAMBI,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,SAO CRISTOVAO,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,TODOS OS SANTOS,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,GRAJAU,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,CENTRO,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,SAO FRANCISCO XAVIER,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,TANQUE,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,TAQUARA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,FREGUESIA (JACAREPAGUA),4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,ANDARAI,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,GLORIA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,FLAMENGO,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,SANTA TERESA,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,ANIL,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,TIJUCA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,VARGEM GRANDE,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,CURICICA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,CIDADE DE DEUS,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,JACAREPAGUA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,CAMORIM,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,VARGEM PEQUENA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,LEBLON,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,COPACABANA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,GAVEA,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,SAO CONRADO,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-N,IRAJA,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,RECREIO DOS BANDEIRANTES,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-S,VIDIGAL,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,JOA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),BARRA DE GUARATIBA,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),CAMPO GRANDE,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (SANTA CRUZ),CAMPO GRANDE,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-O (BANGU),BANGU,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UGU,UGU-B,BARRA OLIMPICA,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+UCV,UGV-N,FREGUESIA (ILHA),3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,TURIACU,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,GALEAO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,PORTUGUESA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,VIGARIO GERAL,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,JARDIM AMERICA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,JARDIM AMERICA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,JARDIM CARIOCA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,PENHA CIRCULAR,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,ANCHIETA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,PARQUE COLUMBIA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,PRAIA DA BANDEIRA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,ACARI,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,ACARI,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,COSTA BARROS,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,GUADALUPE,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,HONORIO GURGEL,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,ZUMBI,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,RIBEIRA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,COELHO NETO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,COELHO NETO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,BARROS FILHO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,RICARDO DE ALBUQUERQUE,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,VAZ LOBO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,VAZ LOBO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,PADRE MIGUEL,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,CIDADE UNIVERSITARIA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,ROCHA MIRANDA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,ROCHA MIRANDA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,RAMOS,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,BENTO RIBEIRO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,BENTO RIBEIRO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,VILA KOSMOS,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,MARECHAL HERMES,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,MARECHAL HERMES,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,VICENTE DE CARVALHO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,VICENTE DE CARVALHO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,ENGENHO DA RAINHA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,COMPLEXO DO ALEMAO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,TOMAS COELHO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,TOMAS COELHO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,SANTISSIMO,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,OSVALDO CRUZ,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,SANTA CRUZ,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,MAGALHAES BASTOS,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,CAVALCANTI,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,CAVALCANTI,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,HIGIENOPOLIS,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,MANGUINHOS,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,MANGUINHOS,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,MANGUINHOS,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,ENGENHEIRO LEAL,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,PILARES,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,DEL CASTILHO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,CASCADURA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,CASCADURA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,MARIA DA GRACA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,CAMPINHO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,CAMPINHO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,ABOLICAO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,SENADOR VASCONCELOS,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,COSMOS,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,JACAREZINHO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,JACAREZINHO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,SANTO CRISTO,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,SANTO CRISTO,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,PRACA SECA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,PRACA SECA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,BENFICA,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,BENFICA,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,BENFICA,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,ENGENHO DE DENTRO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,ENGENHO DE DENTRO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,VASCO DA GAMA,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,INHOAIBA,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,INHOAIBA,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,JACARE,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,JACARE,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,ENCANTADO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,ROCHA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,MEIER,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,MEIER,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,GAMBOA,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,SAMPAIO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,RIACHUELO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,SAUDE,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,ENGENHO NOVO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,ENGENHO NOVO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,MANGUEIRA,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,TAQUARA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,AGUA SANTA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,AGUA SANTA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,LINS DE VASCONCELOS,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,LINS DE VASCONCELOS,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,LINS DE VASCONCELOS,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,CATUMBI,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,FREGUESIA (JACAREPAGUA),4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,FREGUESIA (JACAREPAGUA),4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,CIDADE NOVA,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,CIDADE NOVA,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,PRACA DA BANDEIRA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,VILA ISABEL,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,MARACANA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,RIO COMPRIDO,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,ESTACIO,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,PECHINCHA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,CATETE,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,CATETE,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,LARANJEIRAS,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,LARANJEIRAS,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,GUARATIBA,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,GUARATIBA,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,ALTO DA BOA VISTA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,ALTO DA BOA VISTA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,ALTO DA BOA VISTA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,COSME VELHO,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,COSME VELHO,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,JACAREPAGUA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,JACAREPAGUA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,JACAREPAGUA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,BOTAFOGO,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,BOTAFOGO,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,URCA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,SEPETIBA,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,JACAREPAGUA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,JACAREPAGUA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,CAMORIM,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,HUMAITA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,HUMAITA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,GARDENIA AZUL,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,JARDIM BOTANICO,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,JARDIM BOTANICO,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,LEME,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,LAGOA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,ITANHANGA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,ITANHANGA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,ITANHANGA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,DEODORO,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,BARRA DA TIJUCA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,LAPA,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,LAPA,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,IPANEMA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,ROCINHA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,PEDRA DE GUARATIBA,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,VILA KENNEDY,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,ILHA DE GUARATIBA,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,BARRA OLIMPICA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,GRUMARI,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,GRUMARI,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,CAJU,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,CAJU,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,CAJU,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,BARRA OLIMPICA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,PARADA DE LUCAS,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,CORDOVIL,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,GERICINO,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,JABOUR,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,BRAS DE PINA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,BRAS DE PINA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,VISTA ALEGRE,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,VISTA ALEGRE,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,VISTA ALEGRE,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,VILA DA PENHA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,VILA DA PENHA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,PAQUETA,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,BANCARIOS,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,TAUA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,MONERO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,COCOTA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,PAVUNA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,PAVUNA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,BONSUCESSO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,INHAUMA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,JARDIM GUANABARA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,SANTISSIMO,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,SANTISSIMO,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,CACUIA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,PITANGUEIRAS,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,PENHA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,MADUREIRA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,PARQUE ANCHIETA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,COLEGIO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,COLEGIO,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,OLARIA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,MARE,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,MARE,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,QUINTINO BOCAIUVA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,QUINTINO BOCAIUVA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,QUINTINO BOCAIUVA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,VILA MILITAR,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,SENADOR CAMARA,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,SENADOR CAMARA,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,SENADOR CAMARA,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,REALENGO,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,REALENGO,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,PACIENCIA,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,CAMPO DOS AFONSOS,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,PIEDADE,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,PIEDADE,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,VILA VALQUEIRE,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,VILA VALQUEIRE,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,JARDIM SULACAP,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,JARDIM SULACAP,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,SENADOR VASCONCELOS,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,COSMOS,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,CACHAMBI,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,CACHAMBI,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,SAO CRISTOVAO,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,SAO CRISTOVAO,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,TODOS OS SANTOS,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,GRAJAU,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,GRAJAU,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,GRAJAU,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,CENTRO,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,CENTRO,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,SAO FRANCISCO XAVIER,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,TANQUE,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,TANQUE,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,TAQUARA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,TAQUARA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,FREGUESIA (JACAREPAGUA),4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,ANDARAI,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,GLORIA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,GLORIA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,FLAMENGO,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,SANTA TERESA,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,SANTA TERESA,1,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,ANIL,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,TIJUCA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,VARGEM GRANDE,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,VARGEM GRANDE,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,CURICICA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,CIDADE DE DEUS,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,JACAREPAGUA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,JACAREPAGUA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,CAMORIM,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,VARGEM PEQUENA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,LEBLON,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,COPACABANA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,GAVEA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,GAVEA,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,SAO CONRADO,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,SAO CONRADO,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-T,SAO CONRADO,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,IRAJA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-N,IRAJA,3,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,RECREIO DOS BANDEIRANTES,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,RECREIO DOS BANDEIRANTES,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-S,VIDIGAL,2,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,JOA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,BARRA DE GUARATIBA,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,BARRA DE GUARATIBA,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,CAMPO GRANDE,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,CAMPO GRANDE,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,CAMPO GRANDE,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,CAMPO GRANDE,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,CAMPO GRANDE,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-M,BANGU,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-O,BANGU,5,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+UCV,UGV-B,BARRA OLIMPICA,4,Interseção geométrica UCV × bairro,"INTERSEÇÃO, NÃO RESPONSABILIDADE OFICIAL"
+DLU,,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16F,Pechincha,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16F,Curicica,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16F,Cidade de Deus,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16F,Anil,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16F,Gardênia Azul,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16F,Taquara,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16F,Freguesia (Jacarepaguá),4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16F,Jacarepaguá,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16F,Camorim,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16F,Barra Olímpica,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG01P,Saúde,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG01P,Caju,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16J,Vila Valqueire,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16J,Praça Seca,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16J,Tanque,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16J,Jacarepaguá,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG24B,Itanhangá,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16J,Taquara,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16J,Freguesia (Jacarepaguá),4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG24B,Barra da Tijuca,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG24B,Joá,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG24B,Jacarepaguá,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG24B,Barra Olímpica,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG24R,Vargem Grande,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG24R,Vargem Pequena,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG24R,Recreio dos Bandeirantes,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG24R,Grumari,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG24R,Barra Olímpica,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG24R,Jacarepaguá,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG10R,Maré,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG24R,Camorim,4,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG11P,Penha Circular,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG11P,Brás de Pina,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG11P,Penha,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG12I,Del Castilho,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG12I,Maria da Graça,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG12I,Jacarezinho,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG12I,Higienópolis,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13M,Todos os Santos,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13M,Rocha,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13M,São Francisco Xavier,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13M,Sampaio,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13M,Riachuelo,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13M,Lins de Vasconcelos,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13P,Abolição,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG14I,Irajá,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG14I,Vista Alegre,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG14I,Colégio,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG14I,Vila da Penha,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG14I,Vila Kosmos,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG14I,Vicente de Carvalho,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG15H,Honório Gurgel,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG15H,Rocha Miranda,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG15M,Campinho,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG15H,Marechal Hermes,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG15H,Bento Ribeiro,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG15H,Osvaldo Cruz,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG15M,Vaz Lobo,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG15M,Turiaçú,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG20G,Freguesia (Ilha),3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG15M,Madureira,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG15M,Cavalcanti,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG15M,Engenheiro Leal,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG15M,Cascadura,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG15M,Quintino Bocaiúva,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG25F,Acari,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG20G,Galeão,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG20G,Jardim Carioca,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG31V,Jardim América,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG20G,Cacuia,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG20G,Pitangueiras,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG20G,Ribeira,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG20G,Cidade Universitária,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG22A,Anchieta,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG22A,Guadalupe,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG18V,Santíssimo,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG22A,Parque Anchieta,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG22A,Ricardo de Albuquerque,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG25F,Pavuna,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG25F,Parque Colúmbia,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG25F,Costa Barros,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG25F,Coelho Neto,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG25F,Barros Filho,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG31V,Vigário Geral,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG31V,Cordovil,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG31V,Parada de Lucas,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG27R,Rocinha,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG27R,Vidigal,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG33R,Vila Militar,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG33R,Realengo,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG33R,Magalhães Bastos,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG33R,Campo dos Afonsos,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG33R,Jardim Sulacap,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG33R,Deodoro,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG26P,Guaratiba,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG08T,Alto da Boa Vista,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG26P,Pedra de Guaratiba,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG26P,Barra de Guaratiba,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG26P,Ilha de Guaratiba,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG19C,Paciência,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG19C,Santa Cruz,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG19C,Sepetiba,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG18V,Senador Vasconcelos,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG18V,Cosmos,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG18V,Inhoaíba,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG18V,Campo Grande,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG18G,Santíssimo,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG18G,Senador Vasconcelos,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG18G,Cosmos,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG18G,Inhoaíba,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG18G,Campo Grande,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG17B,Padre Miguel,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG17B,Vila Kennedy,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG17B,Senador Camará,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG17B,Bangu,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG17B,Gericinó,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG17B,Jabour,5,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG27R,São Conrado,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG09V,Andaraí,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG08T,Praça da Bandeira,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG07S,Benfica,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG07S,São Cristóvão,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG07S,Vasco da Gama,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG07S,Mangueira,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG06L,Jardim Botânico,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG06L,Lagoa,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG06L,Gávea,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG04B,Laranjeiras,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG06L,Leblon,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG06L,Ipanema,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG05C,Copacabana,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG05C,Leme,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG04B,Cosme Velho,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG04B,Glória,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG04B,Catete,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG02C,Lapa,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG04B,Flamengo,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG01P,Gamboa,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG03R,Cidade Nova,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG01P,Santo Cristo,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG04B,Botafogo,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG04B,Urca,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG04B,Humaitá,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG03R,Rio Comprido,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG03R,Santa Teresa,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG03R,Estácio,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG03R,Catumbi,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG02C,Paquetá,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG02C,Centro,1,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG10R,Ramos,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG10R,Bonsucesso,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG12I,Tomás Coelho,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG12I,Engenho da Rainha,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13M,Engenho Novo,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG20G,Jardim Guanabara,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13P,Engenho de Dentro,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13P,Encantado,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG20G,Moneró,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13P,Pilares,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG20G,Zumbi,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG10R,Olaria,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG10R,Manguinhos,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG08T,Tijuca,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG12I,Complexo do Alemão,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG12I,Inhaúma,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG12I,Jacaré,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13M,Cachambi,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13M,Méier,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13P,Piedade,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13P,Água Santa,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG20G,Cocotá,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG20G,Bancários,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG20G,Tauá,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG20G,Portuguesa,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG20G,Praia da Bandeira,3,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG09V,Vila Isabel,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG09V,Maracanã,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG09V,Grajaú,2,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG20G,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16F,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG16J,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG24B,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,BG24R,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG10R,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG11P,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG12I,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13M,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG13P,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG14I,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG15H,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG15M,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG22A,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG25F,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG04B,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,NG31V,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG17B,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG18G,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG18V,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG19C,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG26P,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,OG33R,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG01P,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG02C,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG03R,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG05C,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG06L,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG07S,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG08T,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,CG09V,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
+DLU,SG27R,,,GeoJSON bairro SIURB de referência,Associação territorial por atributo; vigência não confirmada
