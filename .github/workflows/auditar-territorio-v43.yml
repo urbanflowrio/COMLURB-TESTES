@@ -1,0 +1,27 @@
+name: Auditoria territorial V4.3
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/auditar-territorio-v43.yml']
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  matriz:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: urbanflowrio/COMLURB
+          path: fonte-oficial
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/auditoria-territorial-v43.py
+      - name: Salvar relatórios auditáveis no repositório de testes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add inteligencia-territorial/AUDITORIA_TERRITORIAL_V43.md inteligencia-territorial/MATRIZ_TERRITORIAL_VALIDACAO.csv inteligencia-territorial/SOBREPOSICOES_UCV.csv
+          if ! git diff --cached --quiet; then git commit -m "audit(testes): matriz de vínculos e sobreposições territoriais V4.3"; git push; fi
