@@ -2,7 +2,7 @@ name: Auditoria territorial V4.3
 on:
   push:
     branches: [main]
-    paths: ['.github/workflows/auditar-territorio-v43.yml']
+    paths: ['.github/workflows/auditar-territorio-v43.yml', 'scripts/auditoria-territorial-v43.py']
   workflow_dispatch: {}
 permissions:
   contents: write
