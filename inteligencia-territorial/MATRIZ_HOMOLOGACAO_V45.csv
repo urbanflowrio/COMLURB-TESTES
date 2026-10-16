@@ -1,0 +1,14 @@
+id,unidade,objeto,status,acao
+V45-01,DLU,32 gerencias e 5 superintendencias,C,Preservar cadastro
+V45-02,DLU,51 equivalencias de codigo,P,Confirmar vigencia
+V45-03,DLU,Bras de Pina multigerencia,P,Validar responsabilidade
+V45-04,DLU,Vila da Penha multigerencia,P,Validar responsabilidade
+V45-05,DLU,Vista Alegre multigerencia,P,Validar responsabilidade
+V45-06,UCV,6 gerencias,C,Preservar cadastro
+V45-07,UCV,Intersecoes bairro AP,G,Leitura geografica
+V45-08,UCV,Responsabilidade exclusiva por bairro,NH,Exigir fonte operacional
+V45-09,UCS,UDS-O 4 e UDS-O 5,R,Preservar subdivisoes AP
+V45-10,UCS,Paqueta AP 1 sem gerencia,P,Confirmar divisao
+V45-11,UGU,UGU-O BANGU e SANTA CRUZ,R,Preservar subdivisoes AP
+V45-12,GERAL,Interface V4.4.1,C,Preservar
+V45-13,GERAL,Homologacao integral,NH,Nao publicar em producao
