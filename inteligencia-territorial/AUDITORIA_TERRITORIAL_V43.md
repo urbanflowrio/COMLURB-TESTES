@@ -3,10 +3,10 @@ Data: 16/10/2026. Ambiente: COMLURB-TESTES, sem alteração da produção.
 
 ## Resultado tabular verificável
 - DLU: 215 feições, 32 códigos de gerências, 5 feições sem `gerdlu`. Prefixo **C → LRC** aplicado a 7 códigos: CG08T, CG09V, CG10R, CG12I, CG13M, CG13P, CG20G.
-- UCV: 6 polígonos de gerência; 260 registros de interseção bairro-gerência; 165 pares distintos bairro/AP; **64 bairros/AP com mais de uma gerência intersectada**.
+- UCV: 6 polígonos de gerência; 260 registros de interseção bairro-gerência; 165 pares distintos bairro/AP; **64 pares bairro/AP com mais de uma gerência intersectada** (contagem por chave nome+AP; não equivale à contagem por nome isolado).
 - UCS: 182 feições de bairro. Categorias territoriais (5): SEM GERÊNCIA DEFINIDA (1), UDS-N (91), UDS-O 4 (28), UDS-O 5 (29), UDS-S (33).
 - UGU: 182 feições de bairro. Categorias territoriais (5): UGU-B (29), UGU-N (84), UGU-O (BANGU) (11), UGU-O (SANTA CRUZ) (17), UGU-S (41).
-- Diferenças literais de nomes de bairro entre DLU e UCS: 330; exigem normalização antes de comparar divergências de gerência.
+- Diferenças de nomes de bairro normalizados (maiúsculas e acentos) entre DLU e UCS: 0. Divergências remanescentes exigem análise individual antes de reconciliar códigos.
 - A interface UCV usa interseção espacial: **não equivale à atribuição administrativa**; bairro pode intersectar várias gerências.
 - `SEM GERÊNCIA DEFINIDA` é categoria pendente de saneamento, e **não uma gerência oficial UCS**.
 - Subdivisões UGU constantes em campos territoriais SIURB são códigos de atuação; não presumir que sejam gerências formais.
