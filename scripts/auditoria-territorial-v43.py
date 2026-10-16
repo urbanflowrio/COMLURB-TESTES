@@ -1,4 +1,4 @@
-import json,csv,collections,pathlib
+import json,csv,collections,pathlib,unicodedata
 P=pathlib.Path('inteligencia-territorial')
 def js(p):return json.loads(pathlib.Path(p).read_text(encoding='utf-8'))
 dlu=js('fonte-oficial/assets/geojson/DLU_Novos_Bairros_estrutura2025.geojson')['features']
@@ -26,7 +26,8 @@ ucscount=collections.Counter(val(f,'gerencia_12') for f in ucs)
 ugucount=collections.Counter(val(f,'gerencia_1') for f in ugu)
 dlu_bairros=set(val(f,'nome') for f in dlu if val(f,'nome'))
 siurb_bairros=set(val(f,'nome') for f in ucs if val(f,'nome'))
-different=sorted(dlu_bairros^siurb_bairros)
+def norm(v):return ' '.join(''.join(c for c in unicodedata.normalize('NFKD',v.casefold()) if not unicodedata.combining(c)).split())
+different=sorted({norm(x) for x in dlu_bairros}^{norm(x) for x in siurb_bairros})
 assert len(ucv)==6 and len(managers)==32,(len(ucv),len(managers))
 assert len(ucs)==182 and len(ugu)==182
 assert len(cross)==260 and len(overlap)==165
@@ -36,10 +37,10 @@ Data: 16/10/2026. Ambiente: COMLURB-TESTES, sem alteração da produção.
 
 ## Resultado tabular verificável
 - DLU: {len(dlu)} feições, {len(managers)} códigos de gerências, {no_manager} feições sem `gerdlu`. Prefixo **C → LRC** aplicado a {len(lrc)} códigos: {', '.join(lrc)}.
-- UCV: {len(ucv)} polígonos de gerência; {len(cross)} registros de interseção bairro-gerência; {len(overlap)} pares distintos bairro/AP; **{len(multiple)} bairros/AP com mais de uma gerência intersectada**.
+- UCV: {len(ucv)} polígonos de gerência; {len(cross)} registros de interseção bairro-gerência; {len(overlap)} pares distintos bairro/AP; **{len(multiple)} pares bairro/AP com mais de uma gerência intersectada** (contagem por chave nome+AP; não equivale à contagem por nome isolado).
 - UCS: {len(ucs)} feições de bairro. Categorias territoriais ({len(ucscount)}): {', '.join(f'{k} ({v})' for k,v in sorted(ucscount.items()))}.
 - UGU: {len(ugu)} feições de bairro. Categorias territoriais ({len(ugucount)}): {', '.join(f'{k} ({v})' for k,v in sorted(ugucount.items()))}.
-- Diferenças literais de nomes de bairro entre DLU e UCS: {len(different)}; exigem normalização antes de comparar divergências de gerência.
+- Diferenças de nomes de bairro normalizados (maiúsculas e acentos) entre DLU e UCS: {len(different)}. Divergências remanescentes exigem análise individual antes de reconciliar códigos.
 - A interface UCV usa interseção espacial: **não equivale à atribuição administrativa**; bairro pode intersectar várias gerências.
 - `SEM GERÊNCIA DEFINIDA` é categoria pendente de saneamento, e **não uma gerência oficial UCS**.
 - Subdivisões UGU constantes em campos territoriais SIURB são códigos de atuação; não presumir que sejam gerências formais.
