@@ -1,0 +1,219 @@
+{
+  "fonte": "ENDERECOS_ATUALIZADOS.xlsx / ENDEREÇOS / SETOR NOMESETOR PAISETOR",
+  "status": "cadastro administrativo; subrecortes SIURB permanecem não homologados",
+  "unidades": {
+    "DLU": {
+      "BG16F": [
+        "Gerência Freguesia",
+        "LRB"
+      ],
+      "BG16J": [
+        "Gerência Jacarepaguá",
+        "LRB"
+      ],
+      "BG24B": [
+        "Gerência Barra da Tijuca",
+        "LRB"
+      ],
+      "BG24R": [
+        "Gerência Recreio",
+        "LRB"
+      ],
+      "CG08T": [
+        "Gerência Tijuca",
+        "LRC"
+      ],
+      "CG09V": [
+        "Gerência Vila Isabel",
+        "LRC"
+      ],
+      "CG10R": [
+        "Gerência Ramos",
+        "LRC"
+      ],
+      "CG12I": [
+        "Gerência Inhaúma",
+        "LRC"
+      ],
+      "CG13M": [
+        "Gerência Méier",
+        "LRC"
+      ],
+      "CG13P": [
+        "Gerência Piedade",
+        "LRC"
+      ],
+      "CG20G": [
+        "Gerência Ilha do Governador",
+        "LRC"
+      ],
+      "NG11P": [
+        "Gerência Penha",
+        "LRN"
+      ],
+      "NG14I": [
+        "Gerência Irajá",
+        "LRN"
+      ],
+      "NG15H": [
+        "Gerência Marechal Hermes",
+        "LRN"
+      ],
+      "NG15M": [
+        "Gerência Madureira",
+        "LRN"
+      ],
+      "NG22A": [
+        "Gerência Anchieta",
+        "LRN"
+      ],
+      "NG25F": [
+        "Gerência Fazenda Botafogo",
+        "LRN"
+      ],
+      "NG31V": [
+        "Gerência Vigário Geral",
+        "LRN"
+      ],
+      "OG17B": [
+        "Gerência Bangu",
+        "LRO"
+      ],
+      "OG18G": [
+        "Gerência Campo Grande",
+        "LRO"
+      ],
+      "OG18V": [
+        "Gerência Senador Vasconcelos",
+        "LRO"
+      ],
+      "OG19C": [
+        "Gerência Santa Cruz",
+        "LRO"
+      ],
+      "OG26P": [
+        "Gerência Pedra de Guaratiba",
+        "LRO"
+      ],
+      "OG33R": [
+        "Gerência Realengo",
+        "LRO"
+      ],
+      "SG01P": [
+        "Gerência Portuária",
+        "LRS"
+      ],
+      "SG02C": [
+        "Gerência Centro",
+        "LRS"
+      ],
+      "SG03R": [
+        "Gerência Rio Comprido",
+        "LRS"
+      ],
+      "SG04B": [
+        "Gerência Botafogo",
+        "LRS"
+      ],
+      "SG05C": [
+        "Gerência Copacabana",
+        "LRS"
+      ],
+      "SG06L": [
+        "Gerência Leblon",
+        "LRS"
+      ],
+      "SG07S": [
+        "Gerência São Cristóvão",
+        "LRS"
+      ],
+      "SG27R": [
+        "Gerência Rocinha",
+        "LRS"
+      ]
+    },
+    "UCV": {
+      "UGV-S": [
+        "Gerência de Manejo Arbóreo Sul",
+        "UCV"
+      ],
+      "UGV-B": [
+        "Gerência de Manejo Arbóreo Barra",
+        "UCV"
+      ],
+      "UGV-N": [
+        "Gerência de Manejo Arbóreo Norte",
+        "UCV"
+      ],
+      "UGV-O": [
+        "Gerência de Manejo Arbóreo Oeste",
+        "UCV"
+      ],
+      "UGV-T": [
+        "Gerência de Manejo Arbóreo Grande Tijuca",
+        "UCV"
+      ],
+      "UGV-M": [
+        "Gerência de Manejo Arbóreo Marechal Hermes",
+        "UCV"
+      ]
+    },
+    "UCS": {
+      "UDS-N": [
+        "Divisão de Coleta Seletiva Norte",
+        "UCS"
+      ],
+      "UDS-S": [
+        "Divisão de Coleta Seletiva Sul",
+        "UCS"
+      ],
+      "UDS-O": [
+        "Divisão de Coleta Seletiva Barra-Oeste",
+        "UCS"
+      ],
+      "UDS-O 4": [
+        null,
+        "UDS-O",
+        "Subdivisão territorial SIURB; vínculo operacional pendente"
+      ],
+      "UDS-O 5": [
+        null,
+        "UDS-O",
+        "Subdivisão territorial SIURB; vínculo operacional pendente"
+      ],
+      "SEM GERÊNCIA DEFINIDA": [
+        null,
+        null,
+        "Sem unidade definida na camada"
+      ]
+    },
+    "UGU": {
+      "UGU-N": [
+        "Gerência de Conservação e Revitalização de Mobiliário Urbano Norte",
+        "UGU"
+      ],
+      "UGU-S": [
+        "Gerência de Conservação e Revitalização de Mobiliário Urbano Sul",
+        "UGU"
+      ],
+      "UGU-B": [
+        "Gerência de Conservação e Revitalização de Mobiliário Urbano Barra",
+        "UGU"
+      ],
+      "UGU-O": [
+        "Gerência de Conservação e Revitalização de Mobiliário Urbano Oeste",
+        "UGU"
+      ],
+      "UGU-O (BANGU)": [
+        null,
+        "UGU-O",
+        "Identificador territorial SIURB"
+      ],
+      "UGU-O (SANTA CRUZ)": [
+        null,
+        "UGU-O",
+        "Identificador territorial SIURB"
+      ]
+    }
+  }
+}
