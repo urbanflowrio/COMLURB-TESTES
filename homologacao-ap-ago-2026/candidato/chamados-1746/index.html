@@ -2431,7 +2431,7 @@ function renderAP(x){
   destroyChart('ap');
   const arr=[...x.ap].sort((a,b)=>a.nome==='SEM AP (AGO)'?1:b.nome==='SEM AP (AGO)'?-1:String(a.nome).localeCompare(String(b.nome)));
   const c=chartBase();
-  document.getElementById('apHint').textContent=period==='acumulado'?`${currentPeriodShort()} • ${contextLabel()} • Agosto/2025 e agosto/2026 constam no histórico oficial congelado sem classificação de AP. Os registros aparecem como 'Sem AP (Ago)'.`:`${currentPeriodShort()} • ${contextLabel()} • volume do período atual e variação em relação a ${previousPeriodShort()}`;
+  document.getElementById('apHint').textContent=period==='acumulado'?`${currentPeriodShort()} • ${contextLabel()}`:`${currentPeriodShort()} • ${contextLabel()} • volume do período atual e variação em relação a ${previousPeriodShort()}`;
   document.getElementById('apChartWrap').style.display='block';
   document.getElementById('apEmpty').style.display='none';
   charts.ap=new Chart(document.getElementById('chartAP'),{
