@@ -1,0 +1,69 @@
+{
+  "modulo": "chamados-1746",
+  "competencia_mais_recente": "2026-09",
+  "data_corte": "2026-10-05",
+  "historico_congelado_ate": "2026-08",
+  "fonte_analitica": "chamados_cube.js",
+  "fonte_geografica": "chamados_data.js",
+  "situacao_tecnica": "validado",
+  "qualidade": {
+    "conciliacao_totais": "Conciliação dos totais oficiais preservada. Cobertura integral de AP no acumulado desde 19/10/2026: os registros de agosto antes exibidos como SEM AP (AGO) foram regularizados em AP3 (registro CHA-2026-10-19-DIM-01). A AP3 foi atribuída por bairro após o fechamento de 04/09/2026; totais inalterados.",
+    "area_planejamento_setembro_2025": {
+      "total": 21276,
+      "classificados": 21276,
+      "sem_classificacao": 0,
+      "cobertura_percentual": 100.0
+    },
+    "area_planejamento_setembro_2026": {
+      "total": 24695,
+      "classificados": 24695,
+      "sem_classificacao": 0,
+      "cobertura_percentual": 100.0
+    },
+    "tratamento_interface": "Setembro e acumulado possuem cobertura integral de AP. Não há categoria SEM AP na interface.",
+    "area_planejamento_acumulado": {
+      "2025": {
+        "total": 224004,
+        "classificados": 224004,
+        "sem_classificacao": 0,
+        "cobertura_percentual": 100.0
+      },
+      "2026": {
+        "total": 254772,
+        "classificados": 254772,
+        "sem_classificacao": 0,
+        "cobertura_percentual": 100.0
+      }
+    },
+    "regularizacao_ap_agosto": {
+      "registro": "CHA-2026-10-19-DIM-01",
+      "data": "2026-10-19",
+      "competencia_afetada": "2026-08",
+      "natureza": "Regularização posterior da classificação de AP. Não é recuperação de classificação existente no fechamento original nem revisão retroativa da fonte.",
+      "estado_no_fechamento_original": "Versão de 04/09/2026 da base auditável AGO/2026: AP nula (Nulo, vazia ou SEM AP) nessas linhas",
+      "estado_atual_da_base": "Base auditável AGO/2026 com AP3 preenchida nessas linhas, edição posterior a 04/09/2026",
+      "criterio": "AP do bairro no GeoJSON oficial DLU_Novos_Bairros_estrutura2025 (todos os bairros envolvidos pertencem à AP3)",
+      "bairros_2026": "Engenho Novo 327, Riachuelo 109, Rocha 82, Jacaré 70, Sampaio 67, São Francisco Xavier 46",
+      "destino": "AP3",
+      "quantidade_2025": 478,
+      "quantidade_2026": 701,
+      "totais_alterados": false,
+      "pendente": "Identificar autor e data exata do preenchimento no histórico de versões da planilha"
+    }
+  },
+  "revisoes_nao_incorporadas": [
+    {
+      "competencia": "2026-07",
+      "valor_fechado": 27553,
+      "valor_fonte_atual": 27510,
+      "diferenca": -43
+    },
+    {
+      "competencia": "2026-08",
+      "valor_fechado": 29605,
+      "valor_fonte_atual": 29590,
+      "diferenca": -15
+    }
+  ],
+  "regra": "Série oficial consolidada por data de corte. Setembro foi acrescentado ao histórico congelado até agosto; revisões retroativas permanecem documentadas e não incorporadas."
+}

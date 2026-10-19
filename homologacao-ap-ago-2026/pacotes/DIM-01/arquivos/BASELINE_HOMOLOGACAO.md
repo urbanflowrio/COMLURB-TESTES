@@ -1,0 +1,73 @@
+# HUB COMLURB | Baseline e homologação
+
+Baseline de governança: `HUB-2026-09-15-GOV-01`.
+
+Esta baseline organiza o estado recebido no pacote 60. Ela não transforma automaticamente painéis operacionais em painéis homologados.
+
+## Evidências vigentes
+
+| Componente | Estado protegido | Evidência disponível | Situação |
+|---|---|---|---|
+| UrbanFlow Core | Baseline V1 | `CORE_BASELINE_V1.md` e regressão de 604 casos | Baseline técnica existente |
+| Balanço de Receita | Regras financeiras e validador | Validador independente, última conciliação conhecida sem divergência, 9 verificações financeiras isoladas e regressão geral aprovada | Homologação técnica aprovada em 15/09/2026. Validação visual publicada pendente |
+| Chamados 1746 | Fechamento até set/2026 | `chamados-1746/HOMOLOGACAO_TECNICA.md` e `chamados-1746/data-cutoff.json` | Homologação técnica aprovada com ressalva de AP. Validação visual publicada pendente |
+| Ouvidoria | Fechamento até set/2026 | `ouvidoria/HOMOLOGACAO_TECNICA.md` e `ouvidoria/data-cutoff.json` | Homologação técnica aprovada com ressalvas. Validação visual publicada pendente |
+| Engenharia e Operações | Estrutura revisada em 15/09/2026 | `engenharia-operacional/REVISAO_TECNICA.md`, testes e snapshot local de frota | Revisão técnica estrutural aprovada. Conciliação externa e validação visual publicada pendentes |
+| Território Operacional | Cadastro e camadas revisados em 15/09/2026 | `territorial/REVISAO_TECNICA.md` e fontes locais | Revisão técnica estrutural aprovada. Validação visual publicada pendente |
+| Demais módulos | Estado recebido no pacote 60 | Sem termo formal localizado | Homologação não comprovada |
+
+## Registro obrigatório de homologação
+
+Copiar e preencher uma linha somente depois da aprovação:
+
+| Data | Módulo | Versão | Competência | Testes executados | Responsável funcional | Aprovador | Resultado |
+|---|---|---|---|---|---|---|---|
+| A preencher | A preencher | A preencher | A preencher | Totais, filtros, drill-down, desktop e celular | A preencher | A preencher | Aprovado ou rejeitado |
+
+## Homologações técnicas registradas
+
+| Data | Módulo | Identificação | Competência | Verificações | Responsável técnico | Resultado |
+|---|---|---|---|---|---|---|
+| 15/09/2026 | Balanço de Receita | `BAL-2026-09-15-TEC-01` | Conforme Google Sheets. Competência atual não reconsultada nesta execução | Sintaxe, referências HTML, filtros, drill-down anual, retorno, padronização, 9 testes isolados e regressão de 604 casos | Greicy Moreira | Técnica aprovada. Visual publicada pendente |
+| 15/09/2026 | Chamados 1746 | `CHA-2026-09-15-TEC-01` | Ago/2026. Corte em 04/09/2026 | Totais, séries, tipos, subtipos, gerências, bairros, referências, sintaxe, acessibilidade estática e regressão geral | Greicy Moreira | Técnica aprovada com ressalva de cobertura de AP em agosto. Visual publicada pendente |
+| 15/09/2026 | Ouvidoria | `OUV-2026-09-15-TEC-01` | Ago/2026. Corte em 04/09/2026 | Totais, séries, tipos, subtipos, gerências, bairros, referências, sintaxe, acessibilidade estática e regressão geral | Greicy Moreira | Técnica aprovada com ressalvas de AP e da comprovação da exclusão da PCO. Visual publicada pendente |
+| 05/10/2026 | Chamados 1746 | `CHA-2026-10-05-TEC-01` | Set/2026. Corte em 05/10/2026 | Série oficial preservada, AP acumulada reconciliada por `SEM AP (AGO)`, aliases cartográficos, espelhos e rastreabilidade dimensional; aceite independente T1–T10 | Greicy Moreira | Aceite técnico independente aprovado — T1 a T10 |
+| 05/10/2026 | Ouvidoria | `OUV-2026-10-05-TEC-01` | Set/2026. Corte em 05/10/2026 | Série operacional preservada, PCO preservado, AP acumulada reconciliada por `SEM AP (AGO)`, aliases cartográficos, espelhos e rastreabilidade dimensional; aceite independente T1–T10 | Greicy Moreira | Aceite técnico independente aprovado — T1 a T10 |
+| 19/10/2026 | Chamados 1746 | `CHA-2026-10-19-DIM-01` | Set/2026. Corte em 05/10/2026 (inalterado) | Regularização de AP: `SEM AP (AGO)` → AP3 (478 em 2025; 701 em 2026), linhas com AP nula no fechamento de 04/09/2026 e AP3 atribuída depois por bairro (6 bairros, todos AP3 no GeoJSON oficial); totais inalterados; teste `testes/testar-cobertura-ap.js` | Greicy Moreira | Executado. Aceite independente pendente |
+| 19/10/2026 | Ouvidoria | `OUV-2026-10-19-DIM-01` | Set/2026. Corte em 05/10/2026 (inalterado) | Regularização de AP: `SEM AP (AGO)` → AP3 (74 em 2025; 116 em 2026), linhas com AP nula no fechamento de 04/09/2026 e AP3 atribuída depois por bairro (7 bairros, todos AP3 no GeoJSON oficial); totais e PCO inalterados; teste `testes/testar-cobertura-ap.js` | Greicy Moreira | Executado. Aceite independente pendente |
+| 15/09/2026 | Engenharia e Operações | `DTE-2026-09-15-REV-01` | Fontes dinâmicas; contingência local de frota até jul/2026 | Sintaxe, acessibilidade estática, navegação, séries nulas, janela móvel, períodos do snapshot e regressão geral | Greicy Moreira | Estrutura técnica aprovada. Conciliação com as fontes publicadas e validação visual pendentes |
+| 15/09/2026 | Território Operacional | `TER-2026-09-15-REV-01` | Cadastro local sem data de referência formal | 342 unidades geocodificadas, duas camadas territoriais, filtros, navegação, acessibilidade estática e regressão geral | Greicy Moreira | Estrutura técnica aprovada. Validação visual publicada e data de referência da fonte pendentes |
+
+## Controle de publicação
+
+1. Usar esta baseline como referência antes de alterar um módulo.
+2. Entregar os arquivos mantendo os caminhos originais.
+3. Conferir o conteúdo depois da compactação.
+4. Executar `npm test` quando arquivos do Core ou da integração forem alterados.
+5. Registrar toda exclusão no manifesto da entrega.
+6. Não declarar homologação apenas porque a página abriu sem erro.
+
+## Arquivos legados mantidos por segurança
+
+Os itens abaixo foram identificados como cópias sem referência ou arquivos antigos da raiz. Por decisão de segurança, permanecem no repositório até a homologação final dos módulos. Não devem ser utilizados nem atualizados.
+
+| Caminho legado | Motivo |
+|---|---|
+| `app.js` | Aplicação antiga do módulo financeiro, sem referência na Home atual |
+| `data.js` | Base estática antiga do financeiro, sem referência na Home atual |
+| `receita.css` | Estilo antigo do financeiro, sem referência na Home atual |
+| `testar-fase7b.js` | Cópia da suíte mantida corretamente em `testes/testar-fase7b.js` |
+| `assets/data/chamados-1746/chamados_data.js` | Divergência histórica detectada na auditoria SET/2026: continha snapshot de Jul/2026. Sincronizada em 05/10/2026 com o arquivo vigente do módulo; manter espelho até decisão formal de exclusão |
+| `assets/data/chamados-1746/chamados_cube.js` | Espelho sincronizado em 05/10/2026 com o arquivo vigente do módulo; SHA-256 idêntico |
+| `assets/data/ouvidoria/ouvidoria_data.js` | Espelho conferido e sincronizado em 05/10/2026; SHA-256 idêntico ao arquivo vigente do módulo |
+| `assets/data/ouvidoria/ouvidoria_cube.js` | Espelho conferido e sincronizado em 05/10/2026; SHA-256 idêntico ao arquivo vigente do módulo |
+| `territorial/unidades_comlurb (1).csv` | Cópia idêntica. O painel usa `territorial/data/unidades_comlurb.csv` |
+
+
+## Pacote de Confiabilidade 1 — aceite em 14/10/2026
+
+| Data | Módulos | Identificação | Evidências | Responsável pela conferência visual | Resultado |
+|---|---|---|---|---|---|
+| 14/10/2026 | Chamados 1746, Ouvidoria, Engenharia e snapshot | `CONF-2026-10-P1` | Commit `2b11b85`; hashes dos sete arquivos conferidos; regressão 668/668 informada na preparação; GitHub Pages concluído; capturas de desktop de Chamados, Ouvidoria e Ecopontos; confirmação de funcionamento no celular | Greicy Moreira (confirmação em conversa) | **Aceite visual do escopo P1; alerta semanal DTE pendente de execução** |
+
+Observações de controle: (1) os cubos, totais e regras oficiais não foram alterados neste pacote; (2) o gráfico de Ecopontos passou a exibir valores no portal publicado; (3) o alerta de defasagem do snapshot tem teste técnico aprovado, mas sua próxima execução semanal em produção ainda precisa ser conferida no relatório gerado; (4) privacidade do cadastro territorial e das planilhas de hora extra permanece pendente e fora deste escopo; (5) esta evidência não substitui homologação institucional dos demais módulos.

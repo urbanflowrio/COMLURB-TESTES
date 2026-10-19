@@ -1,0 +1,80 @@
+== chamados-1746 · toda lista de AP concilia com o total do nó ==
+  [PASSOU] Cubo carregado
+  [PASSOU] Há listas de AP no cubo
+  [PASSOU] Nenhuma lista de AP com soma diferente do total (2025 e 2026)
+  [PASSOU] Somente AP1 a AP5 como categoria de AP
+  [PASSOU] Rótulo SEM AP ausente do cubo
+== ouvidoria · toda lista de AP concilia com o total do nó ==
+  [PASSOU] Cubo carregado
+  [PASSOU] Há listas de AP no cubo
+  [PASSOU] Nenhuma lista de AP com soma diferente do total (2025 e 2026)
+  [PASSOU] Somente AP1 a AP5 como categoria de AP
+  [PASSOU] Rótulo SEM AP ausente do cubo
+== Espelhos em assets/data idênticos aos cubos dos módulos ==
+  [PASSOU] assets/data/chamados-1746/chamados_cube.js idêntico a chamados-1746/chamados_cube.js
+  [PASSOU] assets/data/ouvidoria/ouvidoria_cube.js idêntico a ouvidoria/ouvidoria_cube.js
+== 1746-historico/data.js · AP concilia com os cubos ==
+  [PASSOU] Dados carregados
+  [PASSOU] Rótulo SEM AP ausente
+  [PASSOU] chamados-1746 · soma das APs 2025 = total do cubo
+  [PASSOU] chamados-1746 · soma das APs 2026 = total do cubo
+  [PASSOU] chamados-1746 · AP1 igual ao cubo
+  [PASSOU] chamados-1746 · AP2 igual ao cubo
+  [PASSOU] chamados-1746 · AP3 igual ao cubo
+  [PASSOU] chamados-1746 · AP4 igual ao cubo
+  [PASSOU] chamados-1746 · AP5 igual ao cubo
+  [PASSOU] ouvidoria · soma das APs 2025 = total do cubo
+  [PASSOU] ouvidoria · soma das APs 2026 = total do cubo
+  [PASSOU] ouvidoria · AP1 igual ao cubo
+  [PASSOU] ouvidoria · AP2 igual ao cubo
+  [PASSOU] ouvidoria · AP3 igual ao cubo
+  [PASSOU] ouvidoria · AP4 igual ao cubo
+  [PASSOU] ouvidoria · AP5 igual ao cubo
+  [PASSOU] Agosto · AP3 de Chamados igual à base auditável fechada AGO/2026
+  [PASSOU] Agosto · AP3 de Ouvidoria igual à base auditável fechada AGO/2026
+  [PASSOU] Agosto · soma das APs de Chamados = total de agosto
+  [PASSOU] Agosto · soma das APs de Ouvidoria = total de agosto
+== 1746-timeline/data.js · AP concilia com os cubos ==
+  [PASSOU] Dados carregados
+  [PASSOU] Rótulo SEM AP ausente
+  [PASSOU] chamados-1746 · soma das APs 2025 = total do cubo
+  [PASSOU] chamados-1746 · soma das APs 2026 = total do cubo
+  [PASSOU] chamados-1746 · AP1 igual ao cubo
+  [PASSOU] chamados-1746 · AP2 igual ao cubo
+  [PASSOU] chamados-1746 · AP3 igual ao cubo
+  [PASSOU] chamados-1746 · AP4 igual ao cubo
+  [PASSOU] chamados-1746 · AP5 igual ao cubo
+  [PASSOU] ouvidoria · soma das APs 2025 = total do cubo
+  [PASSOU] ouvidoria · soma das APs 2026 = total do cubo
+  [PASSOU] ouvidoria · AP1 igual ao cubo
+  [PASSOU] ouvidoria · AP2 igual ao cubo
+  [PASSOU] ouvidoria · AP3 igual ao cubo
+  [PASSOU] ouvidoria · AP4 igual ao cubo
+  [PASSOU] ouvidoria · AP5 igual ao cubo
+  [PASSOU] Agosto · AP3 de Chamados igual à base auditável fechada AGO/2026
+  [PASSOU] Agosto · AP3 de Ouvidoria igual à base auditável fechada AGO/2026
+  [PASSOU] Agosto · soma das APs de Chamados = total de agosto
+  [PASSOU] Agosto · soma das APs de Ouvidoria = total de agosto
+== chamados-1746 · data-cutoff.json e valores protegidos da realocação AGO/2026 ==
+  [PASSOU] Acumulado 2025 · total declarado = cubo
+  [PASSOU] Acumulado 2025 · sem classificação = 0
+  [PASSOU] Acumulado 2025 · cobertura 100%
+  [PASSOU] Acumulado 2026 · total declarado = cubo
+  [PASSOU] Acumulado 2026 · sem classificação = 0
+  [PASSOU] Acumulado 2026 · cobertura 100%
+  [PASSOU] Registro de regularização declara destino AP3
+  [PASSOU] Registro de regularização declara totais inalterados
+  [PASSOU] Quantidades regularizadas declaradas
+  [PASSOU] AP3 acumulado protegido (2025, 2026)
+== ouvidoria · data-cutoff.json e valores protegidos da realocação AGO/2026 ==
+  [PASSOU] Acumulado 2025 · total declarado = cubo
+  [PASSOU] Acumulado 2025 · sem classificação = 0
+  [PASSOU] Acumulado 2025 · cobertura 100%
+  [PASSOU] Acumulado 2026 · total declarado = cubo
+  [PASSOU] Acumulado 2026 · sem classificação = 0
+  [PASSOU] Acumulado 2026 · cobertura 100%
+  [PASSOU] Registro de regularização declara destino AP3
+  [PASSOU] Registro de regularização declara totais inalterados
+  [PASSOU] Quantidades regularizadas declaradas
+  [PASSOU] AP3 acumulado protegido (2025, 2026)
+TOTAL: 72 casos | APROVADOS: 72 | REPROVADOS: 0
