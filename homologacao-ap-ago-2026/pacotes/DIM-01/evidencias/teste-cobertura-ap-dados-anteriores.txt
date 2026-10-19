@@ -1,0 +1,80 @@
+== chamados-1746 · toda lista de AP concilia com o total do nó ==
+  [PASSOU] Cubo carregado
+  [PASSOU] Há listas de AP no cubo
+  [PASSOU] Nenhuma lista de AP com soma diferente do total (2025 e 2026)
+  [FALHOU] Somente AP1 a AP5 como categoria de AP · obtido: ["/periods/acumulado/all → SEM AP (AGO)","/periods/acumulado/byTipo/REMOÇÃO DE CAÇAMBA DE EMPRESA PARTICULAR → SEM AP (AGO)","/periods/acumulado/byTipo/VETORES → SEM AP (AGO)","/periods/acumulado/byTipo/MANEJO ARBÓREO → SEM AP (AGO)","/periods/acumulado/byTipo/PRAÇAS → SEM AP (AGO)","/periods/acumulado/byTipo/REMOÇÃO DE CARCAÇA DE VEÍCULO → SEM AP (AGO)","/periods/acumulado/byTipo/COLETA DOMICILIAR → SEM AP (AGO)","/periods/acumulado/byTipo/REMOÇÃO GRATUITA TRANSFERÊNCIA → SEM AP (AGO)","/periods/acumulado/byTipo/FISCALIZAÇÃO DE GRANDE GERADOR → SEM AP (AGO)","/periods/acumulado/byTipo/LIMPEZA → SEM AP (AGO)","/periods/acumulado/byTipo/REMOÇÃO GRATUITA → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/REMOÇÃO DE CAÇAMBA DE EMPRESA PARTICULAR/REMOÇÃO DE CAÇAMBA PARTICULAR CHEIA → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/VETORES/CONTROLE DE ROEDORES E CARAMUJOS AFRICANOS → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/MANEJO ARBÓREO/REMOÇÃO DE ÁRVORE EM LOGRADOURO → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/MANEJO ARBÓREO/AVALIAÇÃO DE RISCO DE QUEDA DA ÁRVORE → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/MANEJO ARBÓREO/REPARO DE CALÇADA DANIFICADA POR RAIZ → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/MANEJO ARBÓREO/REMOÇÃO DE TOCO E RAIZ (DESTOCA) → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/MANEJO ARBÓREO/AVALIAÇÃO DE PODA DE ÁRVORES EM LOGRADOURO → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/PRAÇAS/MANUTENÇÃO DE MOBILIÁRIO, BRINQUEDOS E EQUIPAMENTOS ESPORTIVOS EM PRAÇAS E PARQUES PÚBLICOS → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/REMOÇÃO DE CARCAÇA DE VEÍCULO/AVALIAÇÃO DE REMOÇÃO DE CARCAÇA DE VEÍCULO NÃO IDENTIFICÁVEL → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/COLETA DOMICILIAR/VERIFICAÇÃO DE FREQUÊNCIA IRREGULAR DA COLETA DOMICILIAR COM RETIRADA DO RESÍDUO → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/REMOÇÃO GRATUITA TRANSFERÊNCIA/REMOÇÃO DE ENTULHO E BENS INSERVÍVEIS TRANSFERÊNCIA → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/FISCALIZAÇÃO DE GRANDE GERADOR/FISCALIZAÇÃO DE ESTABELECIMENTO COM IRREGULARIDADES NO DESCARTE DO LIXO EXTRAORDINÁRIO E OU INFECTANTE → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/LIMPEZA DE PRAÇAS E PARQUES → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/REMOÇÃO DE RESÍDUOS NO LOGRADOURO → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/NOTIFICAÇÃO AO PROPRIETÁRIO PARA LIMPEZA DE TERRENO BALDIO → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/LIMPEZA DAS MARGENS DE RIOS → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/REMOÇÃO DE ANIMAIS MORTOS NO LOGRADOURO → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/LIMPEZA DE PAPELEIRA, CONTÊINER E CAÇAMBA COMLURB → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/LIMPEZA DE RALOS → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/CAPINA EM LOGRADOURO → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/VARRIÇÃO DE LOGRADOURO → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/REMOÇÃO DE RESÍDUOS DE PODA → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/REMOÇÃO GRATUITA/REMOÇÃO DE ENTULHO E BENS INSERVÍVEIS → SEM AP (AGO)"] · esperado: []
+  [FALHOU] Rótulo SEM AP ausente do cubo · obtido: false · esperado: true
+== ouvidoria · toda lista de AP concilia com o total do nó ==
+  [PASSOU] Cubo carregado
+  [PASSOU] Há listas de AP no cubo
+  [PASSOU] Nenhuma lista de AP com soma diferente do total (2025 e 2026)
+  [FALHOU] Somente AP1 a AP5 como categoria de AP · obtido: ["/periods/acumulado/all → SEM AP (AGO)","/periods/acumulado/byTipo/MANEJO ARBÓREO → SEM AP (AGO)","/periods/acumulado/byTipo/COLETA DOMICILIAR → SEM AP (AGO)","/periods/acumulado/byTipo/LIMPEZA → SEM AP (AGO)","/periods/acumulado/byTipo/REMOÇÃO GRATUITA → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/MANEJO ARBÓREO/REMOÇÃO DE TOCO E RAIZ - DESTOCA → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/MANEJO ARBÓREO/AVALIAÇÃO DE RISCO DE QUEDA DE ÁRVORE → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/MANEJO ARBÓREO/REMOÇÃO DE ÁRVORE EM LOGRADOURO → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/MANEJO ARBÓREO/AVALIAÇÃO DE PODA DE ÁRVORES EM LOGRADOURO → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/MANEJO ARBÓREO/COMPORTAMENTO DE EQUIPE → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/COLETA DOMICILIAR/VERIFICAÇÃO DE FREQUÊNCIA IRREGULAR DA COLETA DOMICILIAR COM RETIRADA DO RESÍDUO → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/COLETA DOMICILIAR/COLETA DOMICILIAR - RUÍDO → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/LIMPEZA RESÍDUOS OBRAS PÚBL E EMPRESA PARTICULAR → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/COMPORTAMENTO DE EQUIPE → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/DANOS CAUSADOS À TERCEIROS → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/INSTALAÇÃO E/OU RETIRADA DE PAPELEIRA → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/LIMPEZA DE PAPELEIRA, CONTÊINER E CAÇAMBA COMLURB → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/CAPINA EM LOGRADOURO → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/REMOÇÃO DE RESÍDUOS DE PODA → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/REMOÇÃO DE RESÍDUOS NO LOGRADOURO → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/LIMPEZA DE PRAÇAS E PARQUE → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/LIMPEZA DE RALOS → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/INFORMAÇÃO SOBRE INSTALAÇÃO E RETIRADA DE CAÇAMBA DA COMLURB PARA ATENDIMENTO EM COMUNIDADE → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/RETIRADA DE CAÇAMBA DA COMLURB INSTALADA PARA ATENDIMENTO EM COMUNIDADE → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/LIMPEZA/VARRIÇÃO DE LOGRADOURO → SEM AP (AGO)","/periods/acumulado/byTipoSubtipo/REMOÇÃO GRATUITA/REMOÇÃO DE ENTULHO E BENS INSERVÍVEIS → SEM AP (AGO)"] · esperado: []
+  [FALHOU] Rótulo SEM AP ausente do cubo · obtido: false · esperado: true
+== Espelhos em assets/data idênticos aos cubos dos módulos ==
+  [PASSOU] assets/data/chamados-1746/chamados_cube.js idêntico a chamados-1746/chamados_cube.js
+  [PASSOU] assets/data/ouvidoria/ouvidoria_cube.js idêntico a ouvidoria/ouvidoria_cube.js
+== 1746-historico/data.js · AP concilia com os cubos ==
+  [PASSOU] Dados carregados
+  [FALHOU] Rótulo SEM AP ausente · obtido: false · esperado: true
+  [PASSOU] chamados-1746 · soma das APs 2025 = total do cubo
+  [PASSOU] chamados-1746 · soma das APs 2026 = total do cubo
+  [PASSOU] chamados-1746 · AP1 igual ao cubo
+  [PASSOU] chamados-1746 · AP2 igual ao cubo
+  [PASSOU] chamados-1746 · AP3 igual ao cubo
+  [PASSOU] chamados-1746 · AP4 igual ao cubo
+  [PASSOU] chamados-1746 · AP5 igual ao cubo
+  [PASSOU] ouvidoria · soma das APs 2025 = total do cubo
+  [PASSOU] ouvidoria · soma das APs 2026 = total do cubo
+  [PASSOU] ouvidoria · AP1 igual ao cubo
+  [PASSOU] ouvidoria · AP2 igual ao cubo
+  [PASSOU] ouvidoria · AP3 igual ao cubo
+  [PASSOU] ouvidoria · AP4 igual ao cubo
+  [PASSOU] ouvidoria · AP5 igual ao cubo
+  [FALHOU] Agosto · AP3 de Chamados igual à base auditável fechada AGO/2026 · obtido: [7968,10332] · esperado: [8446,11033]
+  [FALHOU] Agosto · AP3 de Ouvidoria igual à base auditável fechada AGO/2026 · obtido: [770,1061] · esperado: [844,1177]
+  [PASSOU] Agosto · soma das APs de Chamados = total de agosto
+  [PASSOU] Agosto · soma das APs de Ouvidoria = total de agosto
+== 1746-timeline/data.js · AP concilia com os cubos ==
+  [PASSOU] Dados carregados
+  [FALHOU] Rótulo SEM AP ausente · obtido: false · esperado: true
+  [PASSOU] chamados-1746 · soma das APs 2025 = total do cubo
+  [PASSOU] chamados-1746 · soma das APs 2026 = total do cubo
+  [PASSOU] chamados-1746 · AP1 igual ao cubo
+  [PASSOU] chamados-1746 · AP2 igual ao cubo
+  [PASSOU] chamados-1746 · AP3 igual ao cubo
+  [PASSOU] chamados-1746 · AP4 igual ao cubo
+  [PASSOU] chamados-1746 · AP5 igual ao cubo
+  [PASSOU] ouvidoria · soma das APs 2025 = total do cubo
+  [PASSOU] ouvidoria · soma das APs 2026 = total do cubo
+  [PASSOU] ouvidoria · AP1 igual ao cubo
+  [PASSOU] ouvidoria · AP2 igual ao cubo
+  [PASSOU] ouvidoria · AP3 igual ao cubo
+  [PASSOU] ouvidoria · AP4 igual ao cubo
+  [PASSOU] ouvidoria · AP5 igual ao cubo
+  [FALHOU] Agosto · AP3 de Chamados igual à base auditável fechada AGO/2026 · obtido: [7968,10332] · esperado: [8446,11033]
+  [FALHOU] Agosto · AP3 de Ouvidoria igual à base auditável fechada AGO/2026 · obtido: [770,1061] · esperado: [844,1177]
+  [PASSOU] Agosto · soma das APs de Chamados = total de agosto
+  [PASSOU] Agosto · soma das APs de Ouvidoria = total de agosto
+== chamados-1746 · data-cutoff.json e valores protegidos da realocação AGO/2026 ==
+  [PASSOU] Acumulado 2025 · total declarado = cubo
+  [FALHOU] Acumulado 2025 · sem classificação = 0 · obtido: 478 · esperado: 0
+  [FALHOU] Acumulado 2025 · cobertura 100% · obtido: 99.7866 · esperado: 100
+  [PASSOU] Acumulado 2026 · total declarado = cubo
+  [FALHOU] Acumulado 2026 · sem classificação = 0 · obtido: 701 · esperado: 0
+  [FALHOU] Acumulado 2026 · cobertura 100% · obtido: 99.7249 · esperado: 100
+  [FALHOU] Registro de regularização declara destino AP3 · obtido: undefined · esperado: "AP3"
+  [FALHOU] Registro de regularização declara totais inalterados · obtido: undefined · esperado: false
+  [FALHOU] Quantidades regularizadas declaradas · obtido: [null,null] · esperado: [478,701]
+  [FALHOU] AP3 acumulado protegido (2025, 2026) · obtido: [87559,98879] · esperado: [88037,99580]
+== ouvidoria · data-cutoff.json e valores protegidos da realocação AGO/2026 ==
+  [PASSOU] Acumulado 2025 · total declarado = cubo
+  [FALHOU] Acumulado 2025 · sem classificação = 0 · obtido: 74 · esperado: 0
+  [FALHOU] Acumulado 2025 · cobertura 100% · obtido: 99.7097 · esperado: 100
+  [PASSOU] Acumulado 2026 · total declarado = cubo
+  [FALHOU] Acumulado 2026 · sem classificação = 0 · obtido: 116 · esperado: 0
+  [FALHOU] Acumulado 2026 · cobertura 100% · obtido: 99.6178 · esperado: 100
+  [FALHOU] Registro de regularização declara destino AP3 · obtido: undefined · esperado: "AP3"
+  [FALHOU] Registro de regularização declara totais inalterados · obtido: undefined · esperado: false
+  [FALHOU] Quantidades regularizadas declaradas · obtido: [null,null] · esperado: [74,116]
+  [FALHOU] AP3 acumulado protegido (2025, 2026) · obtido: [10369,11613] · esperado: [10443,11729]
+TOTAL: 72 casos | APROVADOS: 46 | REPROVADOS: 26
