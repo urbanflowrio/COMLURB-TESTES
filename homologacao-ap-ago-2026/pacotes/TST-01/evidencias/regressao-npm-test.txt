@@ -1,0 +1,874 @@
+
+> hub-comlurb@1.0.0 test
+> npm run test:regression
+
+
+> hub-comlurb@1.0.0 test:regression
+> npm run test:selftest && npm run test:fase4 && npm run test:fase5 && npm run test:fase6 && npm run test:fase7a && npm run test:fase7b && npm run test:fase7c && npm run test:confiabilidade && npm run test:cobertura-ap && npm run test:cascata-territorial
+
+
+> hub-comlurb@1.0.0 test:selftest
+> node testes/executar-hub-selftest-node.js .
+
+[hub-selftest via Node] 40 casos executados · todos passaram · biblioteca liberada para commit
+
+> hub-comlurb@1.0.0 test:fase4
+> node testes/testar-fase4.js .
+
+Raiz usada: /home/claude/urbanflowrio/comlurb
+Arquivos carregados nesta execução:
+  /home/claude/urbanflowrio/comlurb/assets/components/hub-core.js
+  /home/claude/urbanflowrio/comlurb/assets/components/hub-rules.js
+  /home/claude/urbanflowrio/comlurb/assets/components/hub-sources.js
+  /home/claude/urbanflowrio/comlurb/assets/components/hub-ingest-model.js
+  /home/claude/urbanflowrio/comlurb/assets/components/hub-ingest-reader.js
+  /home/claude/urbanflowrio/comlurb/assets/components/hub-ingest-decoder.js
+  /home/claude/urbanflowrio/comlurb/assets/components/hub-ingest-adapter-ar.js
+  /home/claude/urbanflowrio/comlurb/assets/components/hub-rules-ar.js
+  /home/claude/urbanflowrio/comlurb/assets/components/hub-state-ar.js
+  /home/claude/urbanflowrio/comlurb/ar/piloto/legado-referencia.js
+  /home/claude/urbanflowrio/comlurb/ar/piloto/harness.js
+
+== Fase 4 · Locator — 4 registradas, 3 operacionais (auditoria item 1) ==
+  [PASSOU] AR_GERAL está registrada com readerType remote-csv
+  [PASSOU] AR_2026 está registrada com readerType remote-csv
+  [PASSOU] AR_MAPEAMENTO está registrada com readerType remote-csv
+  [PASSOU] AR_GOVERNANCA está registrada com readerType remote-csv
+  [PASSOU] Quatro fontes estão registradas no Locator
+== Fase 4 · Reader remote-csv (mecanismo, fetch mockado) ==
+  [PASSOU] Sucesso: ok=true, tipo=texto
+  [PASSOU] HTTP inválido é falha explícita
+  [PASSOU] Corpo vazio é falha explícita (nunca vira dado vazio silencioso)
+  [PASSOU] HTML no lugar de CSV é falha explícita
+  [PASSOU] Fonte não registrada é falha explícita
+== Fase 4 · Adapter AR — confirma consumo de só 3 fontes (auditoria item 1) ==
+  [PASSOU] Exatamente 3 URLs foram buscadas (AR_GOVERNANCA nunca é chamada)
+  [PASSOU] URL de AR_GOVERNANCA nunca aparece entre as chamadas
+  [PASSOU] diagnosticoFontes tem exatamente 3 chaves
+  [PASSOU] diagnosticoFontes NÃO inclui AR_GOVERNANCA
+== Fase 4 · Correção E08/P01 — atingimento com atual=0 (achado de auditoria, dados reais) ==
+  [PASSOU] Z01 (maior_melhor, atual=0, meta=90%): atingimento = 0 (não null) — igual ao legado
+  [PASSOU] Z01: status continua 'Sem dado' (atual=0 — guarda de status inalterada)
+  [PASSOU] Z02 (menor_melhor, atual=0, meta=5): atingimento = Infinity — mesma fórmula não guardada do legado (meta/atual)
+  [PASSOU] Z02: status continua 'Sem dado'
+  [PASSOU] Z03 (proporcional, SOMA/Mensal, atual=0, meta=1200): atingimento = 0 (meta proporcional > 0, cálculo válido)
+  [PASSOU] Z03: atingimentoProporcional = true
+  [PASSOU] Z04 (meta=0): atingimento continua null (única guarda real: meta≠0)
+  [PASSOU] Z04: status continua 'Sem dado' (meta=0)
+  [PASSOU] Harness: zero divergências de campo entre legado e novo para os casos atual=0 (Z01-Z04)
+== Fase 4 · Adapter AR + Validator + Modelo canônico ==
+  [PASSOU] Quatro linhas adaptadas (E01, E08, C01, X01)
+  [PASSOU] Nenhum erro de validação bloqueia o payload
+  [PASSOU] Envelope tem domain indicadores_metas (nenhum domínio novo)
+  [PASSOU] X01 sem meta/atual: meta convertida é null (nunca zero)
+  [PASSOU] X01 sem meta/atual: statusDisponibilidade = sem_dado
+== Fase 4 · hub-rules-ar — regras específicas ==
+  [PASSOU] E01 = Dentro da Meta
+  [PASSOU] C01 com Status publicado usa precedência SARC (origem=SARC)
+  [PASSOU] X01 sem meta/atual = Sem dado (guarda de zero/nulo própria do AR)
+  [PASSOU] X01: atingimento é null (nunca Infinity/0 silencioso)
+  [PASSOU] Combinação E+C+P bloqueada (HUB.config.combinacaoECPLiberada=false, decisão de governança já em hub-core.js)
+  [PASSOU] bonusTotal não é exposto como número enquanto bloqueado
+  [PASSOU] regE isolado continua calculável mesmo com combinação bloqueada
+== Fase 4 · Harness legado×novo — mecanismo e pendência E03 ==
+  [PASSOU] Harness roda sem exceção e produz resumo estruturado
+  [PASSOU] Nenhuma divergência de campo entre legado e novo (fixtures sem indicadores casados)
+  [PASSOU] bonusTotal aparece como divergência de bônus com decisão ACEITA (governança)
+  [PASSOU] E03 não está nas fixtures deste teste, então pendenciaE03 é null (não inventa regra)
+  [PASSOU] Com E03 presente, pendenciaE03 é registrada
+  [PASSOU] E03 NÃO gera divergência de campo (legado e novo concordam — mesmo status genérico dos dois lados)
+  [PASSOU] relatorio.aprovado continua calculado só por divergências (harness não muda; é o index.html que precisa avisar da pendência)
+
+GRUPOS TESTADOS: 7
+TOTAL: 42 casos | APROVADOS: 42 | REPROVADOS: 0
+Todos os casos acima são específicos da Fase 4 (nenhum caso da suíte de Fases 2/3 foi re-executado; hub-core.js/hub-rules.js usados aqui são os já publicados em main, não modificados por esta entrega).
+
+> hub-comlurb@1.0.0 test:fase5
+> node testes/testar-fase5.js .
+
+Raiz usada: /home/claude/urbanflowrio/comlurb
+Arquivos carregados nesta execução:
+  /home/claude/urbanflowrio/comlurb/assets/components/hub-core.js
+  /home/claude/urbanflowrio/comlurb/assets/components/hub-sources.js
+  /home/claude/urbanflowrio/comlurb/assets/components/hub-ingest-model.js
+  /home/claude/urbanflowrio/comlurb/assets/components/hub-ingest-reader.js
+  /home/claude/urbanflowrio/comlurb/assets/components/hub-ingest-adapter-dte.js
+  /home/claude/urbanflowrio/comlurb/engenharia-operacional/piloto/harness.js
+
+== Fase 5 · Locator — DTE_RELATORIO_GERAL registrada ==
+  [PASSOU] Fonte registrada com readerType remote-csv
+  [PASSOU] schemaVersion = series_operacionais.dte.v1
+  [PASSOU] URL configurada (mesma do painel de produção)
+== Fase 5 · numDTE — vazio/"-"/"—" -> null; zero literal -> 0 ==
+  [PASSOU] Célula vazia -> null
+  [PASSOU] "-" -> null
+  [PASSOU] "—" (travessão) -> null
+  [PASSOU] undefined -> null
+  [PASSOU] null -> null
+  [PASSOU] Zero literal -> 0 (nunca null)
+  [PASSOU] Zero numérico -> 0
+  [PASSOU] "1.234" (milhar pt-BR) -> 1234
+  [PASSOU] "16.257.432" (milhões, mais de um separador de milhar — achado real de biogás) -> 16257432
+  [PASSOU] "0,479" (decimal pt-BR) -> 0.479
+  [PASSOU] "71,9%" (percentual pt-BR publicado pelo Sheets) -> 0.719
+  [PASSOU] "20,3%" -> 0.203
+  [PASSOU] "0%" -> 0 legítimo
+  [PASSOU] "-12,5%" -> -0.125
+  [PASSOU] "R$ 442.403" -> 442403
+  [PASSOU] "abc" (não numérico) -> null (nunca 0)
+== Fase 5 · Detecção de período (mmm.-aa) ==
+  [PASSOU] "mai.-25" reconhecida
+  [PASSOU] "jan.-26" reconhecida
+  [PASSOU] "MAI.-25" (maiúsculo) reconhecida
+  [PASSOU] Texto qualquer não é período
+  [PASSOU] Número não é período
+== Fase 5 · Bloco/subgrupo não reconhecido — falha explícita, nunca vira indicador ==
+  [PASSOU] Bloco letra E (fora da whitelist A-D) não produz nenhum indicador
+  [PASSOU] Gera bloqueio tipo bloco_nao_reconhecido
+  [PASSOU] Envelope falha (nenhum registro produzido = erro, não payload parcial)
+  [PASSOU] quality.erros não vazio
+  [PASSOU] Subgrupo não catalogado no Bloco B: nenhum indicador sob ele
+  [PASSOU] Gera bloqueio tipo subgrupo_nao_reconhecido
+  [PASSOU] Romano fora do Bloco A gera bloqueio romano_fora_de_contexto
+== Fase 5 · Gerência Ofensora — N arbitrário, união de par, falha sem inventar valor ==
+  [PASSOU] Aceita posição N=7 (não limita a 3)
+  [PASSOU] 13 registros unidos (um por período)
+  [PASSOU] Primeiro registro: código e valor corretos
+  [PASSOU] Nenhum bloqueio (par bem formado)
+  [PASSOU] Linha de valor COM rótulo próprio ainda é aceita (achado real, ver comentário no Adapter)
+  [PASSOU] Rótulo da linha de valor é preservado em rotulosBrutos.linhaValor
+  [PASSOU] Linha seguinte é início de novo bloco: nenhum valor inventado
+  [PASSOU] Gera bloqueio ofensora_par_malformado
+== Fase 5 · Correção pós-auditoria (Mecanismo A) — linha de valor de Gerência Ofensora consumida uma única vez, sem indicador duplicado ==
+  [PASSOU] Nenhum bloqueio (as duas linhas associadas são consumidas corretamente)
+  [PASSOU] 26 registros de gerência ofensora (1 posição × 13 períodos × 2 linhas associadas: valor absoluto + razão)
+  [PASSOU] Cada registro preserva qual rótulo o valor representa (indicadorAssociado)
+  [PASSOU] Apenas 2 indicadores comuns extraídos (os dois agregados) — NENHUM duplicado pelas linhas associadas à ofensora
+  [PASSOU] Nenhuma chave (indicador+período) repetida entre os indicadores comuns
+  [PASSOU] Lineage preservado nas duas linhas de origem (categórica e de valor) de cada registro de ofensora
+== Fase 5 · Correção pós-auditoria (Mecanismo B) — critério catalogado, preservado no modelo canônico ==
+  [PASSOU] Nenhum bloqueio (mesmo indicador repetido, mas sob critérios diferentes catalogados)
+  [PASSOU] "Tratamento Interno" aparece 2 vezes (uma por critério), não colide
+  [PASSOU] Critério preservado corretamente nos dois registros
+  [PASSOU] criterioNormalizado também preservado
+  [PASSOU] linhaOrigemCriterio preservado (rastreável)
+  [PASSOU] A própria linha de critério ("CTR Seriopédica") tem criterio=null (define contexto, não pertence a nenhum)
+  [PASSOU] Critério desconhecido: "Tratamento Interno" repete sob contexto não distinguível — gera bloqueio
+  [PASSOU] Envelope inválido (bloqueio estrutural, nunca payload parcial)
+== Fase 5 · Correção pós-auditoria — bloqueio estrutural invalida o envelope inteiro (nunca carga parcial) ==
+  [PASSOU] Registros diagnósticos existem fora do envelope (Frota Total foi extraído)
+  [PASSOU] Bloqueio estrutural presente (subgrupo_nao_reconhecido)
+  [PASSOU] quality.erros não vazio (bloqueio virou erro, não aviso)
+  [PASSOU] envelope.payload === null (carga parcial NUNCA publicada)
+  [PASSOU] quality.status = erro
+== Fase 5 · Bloco C — sem subgrupo confirmado, indicador direto sob o bloco ==
+  [PASSOU] 13 registros de indicador (um por período)
+  [PASSOU] subgrupo vazio (implícito), preservado como string vazia, não inventado
+  [PASSOU] Nenhum bloqueio
+== Fase 5 · Falha segura — fonte vazia ou ausente ==
+  [PASSOU] Texto vazio: envelope sem payload
+  [PASSOU] Texto vazio: erro registrado, não silencioso
+== Fase 5 · Harness — chave inclui subgrupo em A/B/D (exceção só em C) ==
+  [PASSOU] Bloco B: mesmo indicador em 2 subgrupos, valores distintos — as duas linhas casam corretamente pelo subgrupo, zero divergência real
+  [PASSOU] Bloco B: as duas linhas comparadas com segurança, nenhuma sem correspondência, nenhuma não comparável
+  [PASSOU] Bloco D: mesmo indicador em 2 subgrupos hipotéticos — as duas linhas casam corretamente, zero divergência real
+  [PASSOU] Bloco D: as duas comparadas com segurança
+  [PASSOU] Bloco C: casa mesmo com rótulo de subgrupo divergente na base vertical (exceção deliberada)
+  [PASSOU] Bloco C: comparado com segurança apesar do subgrupo divergente
+== Fase 5 · Harness — não comparável por perda de contexto (subgrupoOcorrência/critério que a base vertical não distingue) ==
+  [PASSOU] Duas ocorrências do mesmo subgrupo, mesmo indicador, valores diferentes: classificado como NÃO COMPARÁVEL (nunca divergência real)
+  [PASSOU] Zero divergências reais mesmo quando um dos candidatos bate por coincidência com o valor da base vertical
+  [PASSOU] Motivo registrado explica a limitação estrutural da base vertical
+  [PASSOU] Candidatos canônicos preservados no relatório para rastreabilidade
+== Fase 5 · Harness — rotulagem correta (indicador ≠ subgrupo) e demais categorias ==
+  [PASSOU] Relatório expõe bloco, subgrupo e indicador em campos SEPARADOS (nunca subgrupo como se fosse indicador)
+  [PASSOU] Divergência numérica real ainda é detectada quando o casamento é único e o valor realmente diverge
+  [PASSOU] null (canônico) × 0 (base vertical): divergência ESPERADA, nunca divergência real
+  [PASSOU] Defasagem temporal detectada e reportada (não escondida)
+  [PASSOU] Defasagem temporal: dias de diferença calculados corretamente (2026-08-01 - 2026-07-13 = 19 dias)
+  [PASSOU] Defasagem temporal NÃO esconde a divergência real (valor 42 vs 50 continua contado)
+== Fase 5 · Execução completa — dados reais da aba geral (xlsx enviado nesta fase) ==
+  [PASSOU] Zero bloqueios contra os dados reais completos
+  [PASSOU] Zero erros de validação
+  [PASSOU] 962 registros de indicador extraídos (queda de 1118→962 esperada: linhas associadas a Gerência Ofensora não são mais duplicadas como indicador comum)
+  [PASSOU] 624 registros de gerência ofensora extraídos (alta de 546→624: consumo correto de todas as linhas associadas, não só a primeira)
+  [PASSOU] 35 linhas de anotação identificadas e ignoradas
+  [PASSOU] 13 períodos detectados (mai/25 a mai/26)
+  [PASSOU] Payload preserva bloco/subgrupo em cada indicador (nunca perde contexto, ao contrário da base vertical)
+  [PASSOU] Payload preserva bloco/subgrupo em cada gerência ofensora
+  [PASSOU] RCC Gericinó (Recebimento - t) sem operação em mai/jun-25: registro EXISTE (período preservado)
+  [PASSOU] RCC Gericinó (Recebimento - t) sem operação em mai/jun-25: valor é null, NUNCA 0 (célula vazia na fonte)
+  [PASSOU] Nenhuma chave completa (bloco+subgrupo+ocorrência+critério+indicador+período) duplicada contra os dados reais
+== Fase 5 · Integração piloto — contrato index × harness ==
+  [PASSOU] index.html não referencia mais o campo removido relatorio.divergenciasReais
+  [PASSOU] index.html usa divergenciasNumericasReais do contrato vigente
+  [PASSOU] index.html exibe não comparáveis por perda de contexto
+  [PASSOU] index.html exibe sem correspondência
+  [PASSOU] index.html exibe divergências esperadas null × zero
+  [PASSOU] index.html usa critério de aprovação baseado em divergências numéricas reais
+
+GRUPOS TESTADOS: 15
+TOTAL: 96 casos | APROVADOS: 96 | REPROVADOS: 0
+Todos os casos acima são específicos da Fase 5. Para confirmar ausência de regressão na Fase 4, rode separadamente: node testes/testar-fase4.js .
+
+> hub-comlurb@1.0.0 test:fase6
+> node testes/testar-fase6.js .
+
+[snapshot/run.js] Exceção não tratada ao processar modulo-com-erro: Error: erro proposital de teste
+    at /home/claude/urbanflowrio/comlurb/testes/testar-fase6.js:338:27
+    at Object.processarModuloComIsolamento (/home/claude/urbanflowrio/comlurb/snapshot/run.js:67:10)
+    at rodar (/home/claude/urbanflowrio/comlurb/testes/testar-fase6.js:337:39)
+[snapshot/run.js] Carregando componentes do HUB (bootstrap Node)...
+[HUB] hub-core.js carregado mais de uma vez; ignorando.
+[snapshot/run.js] Arquivos carregados: assets/components/hub-core.js, assets/components/hub-sources.js, assets/components/hub-ingest-model.js, assets/components/hub-ingest-reader.js, assets/components/hub-ingest-decoder.js, assets/components/hub-ingest-adapter-ar.js, assets/components/hub-ingest-adapter-dte.js
+[snapshot/run.js] Processando módulo AR...
+[snapshot/run.js] Processando módulo Engenharia/DTE...
+# Resumo da execução — Fase 6 (Snapshot AR e Engenharia/DTE)
+
+Horário: 2026-10-19T17:26:37.884Z
+
+| Módulo | Status | Falhou | Hash |
+|---|---|---|---|
+| ar | primeiro_snapshot | não | sha256:e73a967d4bb82cf7bce331c8892cb34d8670c14746f661d7d44e217988665016 |
+| engenharia-dte | primeiro_snapshot | não | sha256:3bee68689ac2dbd34aa34ef7bf3afec1f23a6ed10221c9e9537f337f58fea6ba |
+
+[snapshot/run.js] Ciclo concluído sem falhas nos dois módulos.
+[snapshot/run.js] Carregando componentes do HUB (bootstrap Node)...
+[HUB] hub-core.js carregado mais de uma vez; ignorando.
+[snapshot/run.js] Arquivos carregados: assets/components/hub-core.js, assets/components/hub-sources.js, assets/components/hub-ingest-model.js, assets/components/hub-ingest-reader.js, assets/components/hub-ingest-decoder.js, assets/components/hub-ingest-adapter-ar.js, assets/components/hub-ingest-adapter-dte.js
+[snapshot/run.js] Processando módulo AR...
+[snapshot/run.js] Processando módulo Engenharia/DTE...
+# Resumo da execução — Fase 6 (Snapshot AR e Engenharia/DTE)
+
+Horário: 2026-10-19T17:26:37.890Z
+
+| Módulo | Status | Falhou | Hash |
+|---|---|---|---|
+| ar | falha_pre_envelope | sim | - |
+| engenharia-dte | primeiro_snapshot | não | sha256:3bee68689ac2dbd34aa34ef7bf3afec1f23a6ed10221c9e9537f337f58fea6ba |
+
+[snapshot/run.js] Pelo menos um módulo falhou neste ciclo. Resultados válidos do(s) outro(s) módulo(s), se houver, foram preservados normalmente em data/.
+
+=== Fase 6 — resultado da suíte ===
+
+== Fase 6 · canonical.js — canonicalização determinística ==
+  [PASSOU] Chaves de objeto reordenadas produzem a mesma string canônica
+  [PASSOU] Arrays preservam ordem — mesma ordem produz mesma string
+  [PASSOU] Arrays preservam ordem — ordem diferente produz string diferente (nunca reordenado)
+== Fase 6 · snapshot-core.avaliarEnvelope — validação do envelope ==
+  [PASSOU] Envelope completo e sem erros é válido
+  [PASSOU] payload null é inválido
+  [PASSOU] Envelope ausente (null) é inválido, sem lançar exceção
+  [PASSOU] quality.erros não vazio é inválido
+== Fase 6 · snapshot-core.calcularHash — política de hash ==
+  [PASSOU] Mesma entrada semântica produz o mesmo hash
+  [PASSOU] capturedAt diferente NÃO altera o hash
+  [PASSOU] lineage.timestamp diferente NÃO altera o hash
+  [PASSOU] referencePeriod diferente ALTERA o hash
+  [PASSOU] schemaVersion diferente ALTERA o hash
+  [PASSOU] sourceId diferente ALTERA o hash
+  [PASSOU] quality diferente (além de timestamp) ALTERA o hash
+  [PASSOU] payload diferente ALTERA o hash
+  [PASSOU] Ordem diferente dentro de um array do payload ALTERA o hash (arrays nunca são reordenados)
+== Fase 6 · snapshot-ar.js — bloqueio quando fonte obrigatória falha ==
+  [PASSOU] AR_GERAL indisponível bloqueia o ciclo antes do envelope
+  [PASSOU] Motivo da rejeição cita AR_GERAL
+  [PASSOU] AR_MAPEAMENTO indisponível bloqueia o ciclo (mesmo o Adapter degradando graciosamente)
+  [PASSOU] Com as três fontes obrigatórias OK, o ciclo NÃO é rejeitado antes do envelope
+  [PASSOU] moduloId é 'ar'
+== Fase 6 · snapshot-ar.js — AR_GOVERNANCA não é fonte obrigatória ==
+  [PASSOU] Lista de fontes obrigatórias tem exatamente 3 itens
+  [PASSOU] AR_GOVERNANCA NÃO está na lista de fontes obrigatórias
+== Fase 6 · snapshot-dte.js — ciclo válido e ciclo com falha ==
+  [PASSOU] Fixture válida produz envelope com payload não-nulo
+  [PASSOU] Fixture vazia produz envelope com payload nulo
+== Fase 6 · processarCicloModulo — primeiro snapshot válido (AR) ==
+  [PASSOU] Status = primeiro_snapshot
+  [PASSOU] Não falhou
+  [PASSOU] Hash presente
+  [PASSOU] Arquivo de snapshot foi realmente criado em disco
+  [PASSOU] latest.json foi criado
+  [PASSOU] latest.json.referencePeriod = '2026'
+== Fase 6 · processarCicloModulo — reexecução idêntica não duplica ==
+  [PASSOU] Status = sem_mudanca
+  [PASSOU] Hash idêntico ao ciclo anterior
+  [PASSOU] Nenhum arquivo novo de snapshot foi criado (mesma contagem de arquivos)
+  [PASSOU] latest.json não foi alterado (updatedAt idêntico)
+== Fase 6 · processarCicloModulo — mudança real gera novo snapshot e atualiza latest ==
+  [PASSOU] Status = novo_snapshot (já havia um latest anterior)
+  [PASSOU] Hash é diferente do snapshot anterior
+  [PASSOU] Um novo arquivo de snapshot foi adicionado
+  [PASSOU] latest.json agora aponta para o novo hash
+== Fase 6 · processarCicloModulo — falha de validação preserva o último snapshot válido ==
+  [PASSOU] Ciclo com envelope inválido é reportado como falha
+  [PASSOU] latest.json permanece EXATAMENTE igual após a falha
+  [PASSOU] Registro de rejeição foi gravado
+== Fase 6 · rejected — nunca contém conteúdo bruto completo da fonte ==
+  [PASSOU] Campos do registro rejeitado são exatamente os aprovados
+  [PASSOU] Nenhum campo contém texto CSV bruto (heurística: nenhuma vírgula em série longa nos valores string)
+== Fase 6 · escrita atômica — falha entre gravar snapshot e atualizar latest preserva o latest anterior ==
+  [PASSOU] Falha no rename atômico propaga exceção (nunca mascarada)
+  [PASSOU] latest.json permanece o anterior (a escrita do novo nunca foi confirmada)
+== Fase 6 · processarCicloModulo — mudança estrutural é sinalizada no relatório ==
+  [PASSOU] Primeiro ciclo sem latest anterior: mudancaEstrutural não se aplica (undefined/false)
+  [PASSOU] schemaVersion diferente do latest anterior é sinalizado como mudancaEstrutural=true
+  [PASSOU] Relatório da mudança estrutural menciona explicitamente 'MUDANÇA ESTRUTURAL'
+== Fase 6 · processarCicloModulo — carga parcial (avisos presentes, payload válido) ==
+  [PASSOU] Carga com aviso (mas sem erro) NÃO falha — snapshot é criado normalmente
+  [PASSOU] Status = primeiro_snapshot mesmo com aviso presente
+  [PASSOU] Relatório lista o aviso
+== Fase 6 · relatórios — persistência condicional em data/reports ==
+  [PASSOU] Relatório de sucesso (novo_snapshot) foi persistido em disco
+  [PASSOU] Relatório de sucesso persistido contém o status do ciclo
+  [PASSOU] Relatório de falha (validação) foi persistido em disco
+  [PASSOU] Relatório de falha persistido lista os erros
+  [PASSOU] Repetição sem avisos: status = sem_mudanca
+  [PASSOU] Ciclo 'sem_mudanca' sem avisos NÃO persiste relatório novo (evita commit desnecessário)
+  [PASSOU] (nota) cicloAR2 usa fixtures reais do AR, que geram avisos legítimos de join incompleto — por isso persiste relatório; comportamento correto, não é o caso testado acima
+== Fase 6 · run.js — independência entre módulos (uma exceção não impede o outro) ==
+  [PASSOU] Exceção é capturada e retorna um resultado controlado (falhou=true), nunca propaga
+  [PASSOU] Um segundo módulo processado depois de um que lançou exceção executa normalmente
+== Fase 6 · run.js · comandoOrquestrar — execução completa dos dois módulos ==
+  [PASSOU] AR processado com sucesso (primeiro_snapshot)
+  [PASSOU] DTE processado com sucesso (primeiro_snapshot)
+  [PASSOU] houveFalha = false quando os dois módulos têm sucesso
+  [PASSOU] Relatório de AR publicado como artifact
+  [PASSOU] Relatório de DTE publicado como artifact
+  [PASSOU] Resumo publicado como artifact
+== Fase 6 · run.js · comandoOrquestrar — falha de um módulo não impede a publicação válida do outro ==
+  [PASSOU] AR falhou neste ciclo
+  [PASSOU] DTE NÃO falhou, mesmo com AR falhando no mesmo processo
+  [PASSOU] houveFalha = true no resultado agregado (reflete a falha real)
+  [PASSOU] Snapshot válido do DTE foi publicado em data/ mesmo com AR falho
+  [PASSOU] Nenhum snapshot de AR foi publicado (ciclo bloqueado)
+== Fase 6 · verificar-caminhos.js — restrição de escrita a data/ ==
+  [PASSOU] Alterações só dentro de data/ autorizados são aprovadas
+  [PASSOU] Alteração fora de data/ é bloqueada
+  [PASSOU] Arquivo fora do autorizado é listado no motivo do bloqueio
+  [PASSOU] Rename para fora de data/ também é bloqueado (os dois lados são checados)
+  [PASSOU] Nenhuma alteração (linha vazia) é aprovada trivialmente
+== Fase 6 · retenção — identificação de itens elegíveis sem exclusão automática ==
+  [PASSOU] Arquivo com mais de 90 dias é elegível
+  [PASSOU] Arquivo recente NÃO é elegível
+  [PASSOU] Nenhum arquivo foi apagado pela função de identificação
+== Fase 6 · rollback-info — leitura não modifica latest.json nem o snapshot ==
+  [PASSOU] Conteúdo do latest.json não mudou depois da leitura
+  [PASSOU] mtime do latest.json não mudou depois da leitura
+  [PASSOU] lerLatest retornou o ponteiro esperado
+== Fase 6 · bootstrap-hub.js — lista fixa, nenhuma entrada externa ==
+  [PASSOU] ARQUIVOS_CANONICOS é uma lista fixa não vazia
+  [PASSOU] Todos os arquivos da lista canônica existem no checkout
+
+GRUPOS TESTADOS: 22
+TOTAL: 85 casos | APROVADOS: 85 | REPROVADOS: 0
+
+> hub-comlurb@1.0.0 test:fase7a
+> node testes/testar-fase7a.js .
+
+
+=== Fase 7A — resultado da suíte ===
+
+== Fase 7A · snapshotReader.lerAsync — parâmetros inválidos (parametro_invalido) ==
+  [PASSOU] moduloId ausente -> parametro_invalido
+  [PASSOU] moduloId com caracteres inválidos -> parametro_invalido
+  [PASSOU] baseUrl ausente -> parametro_invalido
+  [PASSOU] maxAgeHoras não numérico -> parametro_invalido
+  [PASSOU] maxAgeHoras negativo -> parametro_invalido
+  [PASSOU] expectedSnapshotVersion vazio -> parametro_invalido
+  [PASSOU] expectedSchemaVersion vazio -> parametro_invalido
+== Fase 7A · snapshotReader.lerAsync — fetchImpl injetável e detecção de ambiente ==
+  [PASSOU] Node sem fetchImpl (sem window) -> parametro_invalido, nenhuma rede real acessada
+  [PASSOU] Em ambiente 'navegador' simulado, sem fetchImpl, usa globalThis.fetch automaticamente
+  [PASSOU] Resultado consistente com o mock (404 -> snapshot_ausente)
+  [PASSOU] Node COM fetchImpl injetado nunca cai em parametro_invalido por falta de fetch
+== Fase 7A · snapshotReader.lerAsync — latest.json: sucesso, ausência (404), contrato inválido ==
+  [PASSOU] Par latest+snapshot válido (fixtures) -> snapshot_valido
+  [PASSOU] meta.hash presente e igual ao hash do snapshot
+  [PASSOU] meta.referencePeriod presente
+  [PASSOU] snapshot retornado contém o envelope completo
+  [PASSOU] latest.json 404 -> snapshot_ausente
+  [PASSOU] latest.json não é JSON válido -> latest_invalido
+  [PASSOU] latest.json sem campo obrigatório (moduloId) -> latest_invalido
+  [PASSOU] latest.moduloId diverge do módulo solicitado -> modulo_divergente
+== Fase 7A · snapshotReader.lerAsync — segurança de path (bloqueado antes do fetch do snapshot) ==
+  [PASSOU] path absoluto (/etc/passwd) bloqueado
+  [PASSOU] path absoluto (/etc/passwd) bloqueado — nenhuma segunda chamada de fetch (bloqueado antes do fetch do snapshot)
+  [PASSOU] path com protocolo (http://) bloqueado
+  [PASSOU] path com protocolo (http://) bloqueado — nenhuma segunda chamada de fetch (bloqueado antes do fetch do snapshot)
+  [PASSOU] path protocolo-relativo (//evil) bloqueado
+  [PASSOU] path protocolo-relativo (//evil) bloqueado — nenhuma segunda chamada de fetch (bloqueado antes do fetch do snapshot)
+  [PASSOU] path com barra invertida bloqueado
+  [PASSOU] path com barra invertida bloqueado — nenhuma segunda chamada de fetch (bloqueado antes do fetch do snapshot)
+  [PASSOU] path com traversal direto ('..') bloqueado
+  [PASSOU] path com traversal direto ('..') bloqueado — nenhuma segunda chamada de fetch (bloqueado antes do fetch do snapshot)
+  [PASSOU] path com traversal percent-encoded bloqueado
+  [PASSOU] path com traversal percent-encoded bloqueado — nenhuma segunda chamada de fetch (bloqueado antes do fetch do snapshot)
+  [PASSOU] path apontando para outro módulo bloqueado
+  [PASSOU] path apontando para outro módulo bloqueado — nenhuma segunda chamada de fetch (bloqueado antes do fetch do snapshot)
+== Fase 7A · snapshotReader.lerAsync — snapshot apontado: ausência, contrato, hash, moduloId ==
+  [PASSOU] Snapshot apontado por latest.json não existe (404) -> snapshot_apontado_ausente
+  [PASSOU] Diferenciado corretamente de latest ausente (não é snapshot_ausente)
+  [PASSOU] Snapshot apontado com JSON malformado -> contrato_invalido
+  [PASSOU] Snapshot sem envelope canônico -> contrato_invalido
+  [PASSOU] latest.hash != snapshot.hash -> hash_divergente
+  [PASSOU] snapshot.moduloId diverge do módulo solicitado -> modulo_divergente
+  [PASSOU] referencePeriod de latest.json diverge do envelope -> contrato_invalido
+  [PASSOU] envelope.capturedAt inválido -> contrato_invalido
+== Fase 7A · snapshotReader.lerAsync — expectedSnapshotVersion / expectedSchemaVersion ==
+  [PASSOU] expectedSnapshotVersion igual à real -> não bloqueia (snapshot_valido)
+  [PASSOU] expectedSnapshotVersion divergente -> versao_incompativel
+  [PASSOU] expectedSchemaVersion ausente não bloqueia schemaVersion válido -> snapshot_valido
+  [PASSOU] expectedSchemaVersion informado e divergente -> schema_incompativel
+== Fase 7A · snapshotReader.lerAsync — coerência obrigatória entre latest.json e snapshot (snapshotVersion/schemaVersion/capturedAt) ==
+  [PASSOU] latest.snapshotVersion diferente de snapshot.snapshotVersion (sem expected) -> versao_incompativel
+  [PASSOU] expectedSnapshotVersion igual ao latest, mas snapshot diverge -> versao_incompativel
+  [PASSOU] latest.schemaVersion diferente de envelope.schemaVersion (sem expected) -> schema_incompativel
+  [PASSOU] expectedSchemaVersion igual ao envelope, mas diferente do latest -> schema_incompativel
+  [PASSOU] latest.capturedAt diferente de envelope.capturedAt -> contrato_invalido
+  [PASSOU] Detalhe do erro menciona explicitamente ponteiro e envelope descrevendo capturas diferentes
+  [PASSOU] snapshotVersion, schemaVersion e capturedAt coerentes (fixtures) -> snapshot_valido
+  [PASSOU] stale não mascara divergência de coerência (capturedAt divergente prevalece sobre maxAgeHoras excedido)
+== Fase 7A · snapshotReader.lerAsync — validação mínima de baseUrl ==
+  [PASSOU] baseUrl composta apenas por espaços -> parametro_invalido
+  [PASSOU] baseUrl contendo caractere nulo -> parametro_invalido
+  [PASSOU] baseUrl com protocolo javascript: -> parametro_invalido
+  [PASSOU] baseUrl com protocolo data: -> parametro_invalido
+  [PASSOU] baseUrl https:// aceita (segue para busca, não é parametro_invalido)
+  [PASSOU] baseUrl como caminho relativo explícito aceito (segue para busca, não é parametro_invalido)
+  [PASSOU] baseUrl mock:// (usado pelos testes) continua aceito
+== Fase 7A · snapshotReader.lerAsync — maxAgeHoras e status stale ==
+  [PASSOU] maxAgeHoras ausente -> nenhuma avaliação de idade, mesmo snapshot 'velho' -> snapshot_valido
+  [PASSOU] maxAgeHoras=24, idade=2h -> snapshot_valido
+  [PASSOU] maxAgeHoras=24, idade=100h -> stale
+  [PASSOU] stale preserva snapshot
+  [PASSOU] stale preserva meta
+  [PASSOU] maxAgeHoras=0 (número finito válido, não erro) com idade>0 -> stale
+== Fase 7A · snapshotReader.lerAsync — erro_leitura (rede), diferenciado de 404 ==
+  [PASSOU] fetch rejeita ao buscar latest.json -> erro_leitura
+  [PASSOU] latest.json responde HTTP 500 (não-ok, não-404) -> erro_leitura
+  [PASSOU] HTTP 500 nunca confundido com snapshot_ausente (404)
+  [PASSOU] fetch rejeita ao buscar o snapshot apontado -> erro_leitura
+== Fase 7A · snapshotReader.lerAsync — garantias estruturais (sem escrita, sem eval, sem rede real) ==
+  [PASSOU] Módulo carregado via require() puro (sem eval) — smoke test de exportação
+  [PASSOU] Todas as chamadas de fetch nesta suíte usaram URLs mock:// (nenhum host real)
+== Fase 7A · dataSource.resolver — modo padrão e isolamento entre providers ==
+  [PASSOU] modo omitido -> padrão 'live'
+  [PASSOU] modo omitido chama liveProvider
+  [PASSOU] modo omitido NÃO chama snapshotProvider
+  [PASSOU] valorPrincipal em modo live é o resultado do liveProvider
+  [PASSOU] modo 'snapshot' NÃO chama liveProvider
+  [PASSOU] modo 'snapshot' chama snapshotProvider
+  [PASSOU] valorPrincipal em modo snapshot é o resultado do snapshotProvider
+  [PASSOU] modo snapshot preserva o objeto estruturado inteiro do provider (não desembrulha)
+  [PASSOU] modo 'compare' chama liveProvider exatamente 1 vez
+  [PASSOU] modo 'compare' chama snapshotProvider exatamente 1 vez
+  [PASSOU] valorPrincipal em compare é o resultado live
+  [PASSOU] modo desconhecido -> rejeitado explicitamente ('modo_desconhecido')
+  [PASSOU] modo desconhecido não é aceito silenciosamente (valorPrincipal nulo)
+  [PASSOU] moduloId ausente -> retorno estruturado com erro, nunca lança exceção
+== Fase 7A · dataSource.resolver — modo compare: independência entre live e snapshot ==
+  [PASSOU] Falha do live não impede a captura do resultado do snapshot
+  [PASSOU] comparação classificada como erro_live
+  [PASSOU] Falha do snapshot não impede a captura do resultado do live
+  [PASSOU] comparação classificada como erro_snapshot
+  [PASSOU] comparação classificada como erro_ambos quando as duas fontes falham
+  [PASSOU] modo compare não altera o valor principal (continua sendo o live)
+== Fase 7A · dataSource.comparar — classificação e tipos de diferença ==
+  [PASSOU] Objetos com mesmas propriedades em ordem diferente -> igualdade (0 diferenças)
+  [PASSOU] Campo presente só no live -> campo_ausente_snapshot
+  [PASSOU] Campo presente só no snapshot -> campo_ausente_live
+  [PASSOU] Mesmo tipo, valor diferente -> valor_divergente
+  [PASSOU] Tipos diferentes -> tipo_divergente (não valor_divergente)
+  [PASSOU] Arrays com mesmo conjunto, ordem diferente -> ordem_array_divergente
+  [PASSOU] Arrays idênticos, mesma ordem -> igualdade
+  [PASSOU] Arrays de mesmo tamanho, conjunto realmente diferente -> valor_divergente por índice (não ordem_array_divergente)
+== Fase 7A · dataSource.comparar — não modifica os objetos de entrada ==
+  [PASSOU] Objeto live permanece byte-a-byte igual após a comparação
+  [PASSOU] Objeto snapshot permanece byte-a-byte igual após a comparação
+
+GRUPOS TESTADOS: 15
+TOTAL: 102 casos | APROVADOS: 102 | REPROVADOS: 0
+
+> hub-comlurb@1.0.0 test:fase7b
+> node testes/testar-fase7b.js .
+
+
+=== Fase 7B — resultado da suíte ===
+
+== Fase 7B · resolverLive — extração e chamada única ==
+  [PASSOU] live provider extrai resultado.itens (ok:true, itens presente)
+  [PASSOU] itens extraídos batem com a saída direta do Adapter
+  [PASSOU] Adapter real (via fixture) chamado exatamente uma vez por resolverLive
+  [PASSOU] live com payload nulo -> ok:false com erro
+  [PASSOU] live com rejeição -> ok:false, nunca lança exceção para fora
+  [PASSOU] mensagem de erro da rejeição preservada
+== Fase 7B · resolverLive — payload válido mas itens inválido nunca vira sucesso ==
+  [PASSOU] payload válido + itens ausente (undefined) -> ok:false (nunca sucesso)
+  [PASSOU] payload válido + itens ausente (undefined) -> mensagem de erro estável
+  [PASSOU] providerFinoLive rejeita quando resolverLive classificou itens inválido (itens ausente (undefined))
+  [PASSOU] Interface classifica itens inválido (itens ausente (undefined)) como indisponível, lado live
+  [PASSOU] Nenhuma divergência falsa (undefined × array) é produzida — o comparador nunca chega a rodar sobre o valor inválido (itens ausente (undefined))
+  [PASSOU] payload válido + itens null -> ok:false (nunca sucesso)
+  [PASSOU] payload válido + itens null -> mensagem de erro estável
+  [PASSOU] providerFinoLive rejeita quando resolverLive classificou itens inválido (itens null)
+  [PASSOU] Interface classifica itens inválido (itens null) como indisponível, lado live
+  [PASSOU] Nenhuma divergência falsa (undefined × array) é produzida — o comparador nunca chega a rodar sobre o valor inválido (itens null)
+  [PASSOU] payload válido + itens como objeto -> ok:false (nunca sucesso)
+  [PASSOU] payload válido + itens como objeto -> mensagem de erro estável
+  [PASSOU] providerFinoLive rejeita quando resolverLive classificou itens inválido (itens como objeto)
+  [PASSOU] Interface classifica itens inválido (itens como objeto) como indisponível, lado live
+  [PASSOU] Nenhuma divergência falsa (undefined × array) é produzida — o comparador nunca chega a rodar sobre o valor inválido (itens como objeto)
+  [PASSOU] payload válido + itens como string -> ok:false (nunca sucesso)
+  [PASSOU] payload válido + itens como string -> mensagem de erro estável
+  [PASSOU] providerFinoLive rejeita quando resolverLive classificou itens inválido (itens como string)
+  [PASSOU] Interface classifica itens inválido (itens como string) como indisponível, lado live
+  [PASSOU] Nenhuma divergência falsa (undefined × array) é produzida — o comparador nunca chega a rodar sobre o valor inválido (itens como string)
+  [PASSOU] payload válido + itens array vazio -> continua ok:true (array vazio é válido, diferente de itens ausente/inválido)
+  [PASSOU] itens array vazio é preservado tal como está
+  [PASSOU] Guarda de renderização (live.ok ? live.itens.length : '—') não lança exceção quando itens é inválido
+  [PASSOU] Guarda de renderização exibe '—' em vez de tentar ler .length de itens inválido
+== Fase 7B · resolverSnapshot — estados aceitos/rejeitados e chamada única ==
+  [PASSOU] snapshot_valido aceito -> ok:true
+  [PASSOU] snapshot provider extrai envelope.payload.linhas
+  [PASSOU] linhas extraídas batem com a fixture
+  [PASSOU] snapshot_valido não é sinalizado como stale
+  [PASSOU] snapshotReader chamado exatamente uma vez por resolverSnapshot
+  [PASSOU] snapshot ausente (404) -> ok:false, status snapshot_ausente
+  [PASSOU] latest.json malformado -> ok:false, status latest_invalido
+  [PASSOU] snapshot apontado por latest.json ausente -> ok:false, status snapshot_apontado_ausente
+  [PASSOU] maxAgeHoras inválido (-5) -> ok:false, status parametro_invalido (erro visível, sem fallback)
+  [PASSOU] CONFIG.maxAgeHoras padrão do piloto é null
+  [PASSOU] maxAgeHoras null não bloqueia (aceito pelo reader sem avaliação de idade)
+== Fase 7B · providers finos — não repetem chamadas, falha nunca vira array vazio ==
+  [PASSOU] providerFinoLive devolve sempre o mesmo array já resolvido (sem nova chamada)
+  [PASSOU] providerFinoLive em falha rejeita (não vira array vazio)
+  [PASSOU] providerFinoSnapshot devolve o array já resolvido
+  [PASSOU] providerFinoSnapshot em falha rejeita (não vira array vazio)
+  [PASSOU] aplicarFiltros é pura — chamadas repetidas com os mesmos parâmetros não alteram nem refazem nada externo
+== Fase 7B · integração com HUB.dataSource.resolver — falhas, chamada única e comparação sobre arrays ==
+  [PASSOU] comparação ocorre sobre os arrays puros, não sobre {ok,status,meta}
+  [PASSOU] (idem, lado snapshot)
+  [PASSOU] arrays idênticos -> classificação igualdade
+  [PASSOU] live permanece valor principal mesmo em modo compare
+  [PASSOU] classificar(): equivalente quando ambas ok e igualdade
+  [PASSOU] divergência de quantidade de linhas -> diferenças presentes (campo_ausente_live no índice extra)
+  [PASSOU] classificação -> divergente
+  [PASSOU] divergência de valor (realizado) -> tipo valor_divergente
+  [PASSOU] divergência de tipo (realizado número × string) -> tipo tipo_divergente
+  [PASSOU] divergência de ordem em array de primitivos -> tipo ordem_array_divergente
+  [PASSOU] array live não é modificado pela comparação
+  [PASSOU] array snapshot não é modificado pela comparação
+  [PASSOU] falha só do live -> classificacao erro_live
+  [PASSOU] erro do live preservado separadamente no relatório
+  [PASSOU] erro do snapshot permanece null quando só o live falhou
+  [PASSOU] classificar(): indisponivel, ladoFalho live
+  [PASSOU] falha só do snapshot -> classificacao erro_snapshot
+  [PASSOU] erro do snapshot preservado separadamente no relatório
+  [PASSOU] erro do live permanece null quando só o snapshot falhou
+  [PASSOU] classificar(): indisponivel, ladoFalho snapshot
+  [PASSOU] falha das duas fontes -> classificacao erro_ambos
+  [PASSOU] classificar(): indisponivel, ladoFalho ambas
+  [PASSOU] stale + igualdade -> nível equivalente (stale é aviso, não 4º nível)
+  [PASSOU] stale continua sinalizado no resultado rico do snapshot
+  [PASSOU] stale + divergência -> nível divergente (stale continua sendo aviso adicional)
+== Fase 7B · agruparPorTipo ==
+  [PASSOU] Todos os 5 tipos aparecem no resumo, inclusive com contagem zero
+== Fase 7B · aplicarFiltros ==
+  [PASSOU] Filtro por tipo específico
+  [PASSOU] Filtro 'todos' não exclui nada
+  [PASSOU] Filtro por texto no path (case-insensitive)
+  [PASSOU] Filtro combinado tipo + path sem correspondência -> vazio
+== Fase 7B · esc() e representarValor() — HTML nunca é escrito sem escape, payload extenso é limitado ==
+  [PASSOU] esc() escapa & < > " '
+  [PASSOU] esc() trata null/undefined como string vazia
+  [PASSOU] representarValor trunca valores longos
+  [PASSOU] representarValor(objeto) não lança exceção e retorna JSON legível
+  [PASSOU] representarValor(null)
+  [PASSOU] representarValor(undefined)
+  [PASSOU] Valor com HTML embutido, depois de representado e escapado, não contém tag crua
+== Fase 7B · resolverBaseUrl — portabilidade sem domínio/usuário/organização fixos ==
+  [PASSOU] GitHub Pages, project page, terminando em index.html
+  [PASSOU] GitHub Pages, terminando só na pasta (sem index.html)
+  [PASSOU] Fork com outro nome de repositório e outro usuário
+  [PASSOU] Servidor local
+  [PASSOU] Instalação em subdiretório adicional (UrbanFlow genérico)
+== Fase 7B · resolverBaseUrl — concatenação final aponta para data/snapshots/ar/latest.json ==
+  [PASSOU] Barra final de data/ preservada
+  [PASSOU] URL final do latest.json não tem barra dupla nem barra faltando
+  [PASSOU] Resolução do path retornado pelo latest.json real do módulo AR
+== Fase 7B · pipeline completo baseUrl -> snapshotReader.lerAsync, ponta a ponta ==
+  [PASSOU] lerAsync com baseUrl resolvido + fixtures reais -> snapshot_valido
+  [PASSOU] payload.linhas lido corretamente ponta a ponta
+== Fase 7B · verificação textual de ar/piloto-snapshot/index.html ==
+  [PASSOU] HTML não carrega hub-rules-ar.js (script real, não menção em comentário)
+  [PASSOU] HTML não carrega hub-state-ar.js (script real, não menção em comentário)
+  [PASSOU] HTML não carrega legado-referencia.js (script real, não menção em comentário)
+  [PASSOU] HTML não carrega harness.js (Fase 4)
+  [PASSOU] HTML não carrega nenhum script de ar/ar.js (painel de produção)
+  [PASSOU] HTML carrega hub-core.js via <script src>
+  [PASSOU] HTML carrega hub-sources.js via <script src>
+  [PASSOU] HTML carrega hub-ingest-model.js via <script src>
+  [PASSOU] HTML carrega hub-ingest-reader.js via <script src>
+  [PASSOU] HTML carrega hub-ingest-decoder.js via <script src>
+  [PASSOU] HTML carrega hub-ingest-adapter-ar.js via <script src>
+  [PASSOU] HTML carrega hub-snapshot-reader.js via <script src>
+  [PASSOU] HTML carrega hub-data-source.js via <script src>
+  [PASSOU] HTML carrega piloto-snapshot.js via <script src>
+  [PASSOU] HTML contém o título exigido
+  [PASSOU] HTML contém o aviso permanente exato
+  [PASSOU] HTML NÃO contém a frase proibida "dado oficial do mês"
+  [PASSOU] HTML NÃO contém a frase proibida "fechamento definitivo"
+  [PASSOU] HTML NÃO contém a frase proibida "fonte principal"
+  [PASSOU] HTML NÃO contém a frase proibida "dado de produção substituído"
+  [PASSOU] A única URL absoluta presente no HTML é a dependência externa do PapaParse
+  [PASSOU] O CDN do PapaParse está de fato presente (a exceção documentada não é usada para esconder outra URL)
+  [PASSOU] Nenhuma URL absoluta hardcoded para latest.json ou para snapshots/ no HTML
+  [PASSOU] Ausência de 'urbanflowrio' no HTML (nenhum domínio/organização fixo do projeto)
+  [PASSOU] Ausência de 'github.io/COMLURB' no HTML (nenhuma URL fixa de GitHub Pages do projeto)
+  [PASSOU] Ausência genérica de 'githubusercontent' no HTML
+  [PASSOU] piloto-snapshot.js não usa eval
+  [PASSOU] piloto-snapshot.js não referencia HUB.rulesAR
+  [PASSOU] piloto-snapshot.js não referencia HUB.stateAR
+  [PASSOU] piloto-snapshot.js não contém nenhuma URL absoluta (nem de dados, nem de domínio/organização/repositório do projeto — diferente do HTML, este arquivo não tem nem a exceção do PapaParse)
+  [PASSOU] piloto-snapshot.js contém o aviso de defasagem exato
+== Fase 7B · página não referenciada pela home nem por menus existentes ==
+  [PASSOU] index.html da raiz (home) não menciona piloto-snapshot
+  [PASSOU] hub-layout.js (menu/navegação) não menciona piloto-snapshot
+  [PASSOU] ar/index.html (painel de produção) não menciona piloto-snapshot
+== Fase 7B · integridade dos arquivos protegidos pela baseline vigente ==
+  [PASSOU] Arquivo protegido com hash SHA-256 idêntico à baseline vigente: ar/index.html
+  [PASSOU] Arquivo protegido com hash SHA-256 idêntico à baseline vigente: ar/ar.js
+  [PASSOU] Arquivo protegido com hash SHA-256 idêntico à baseline vigente: ar/ar-config.js
+  [PASSOU] Arquivo protegido com hash SHA-256 idêntico à baseline vigente: ar/piloto/index.html
+  [PASSOU] Arquivo protegido com hash SHA-256 idêntico à baseline vigente: ar/piloto/harness.js
+  [PASSOU] Arquivo protegido com hash SHA-256 idêntico à baseline vigente: ar/piloto/legado-referencia.js
+  [PASSOU] Arquivo protegido com hash SHA-256 idêntico à baseline vigente: ar/piloto/README.md
+  [PASSOU] Arquivo protegido com hash SHA-256 idêntico à baseline vigente: assets/components/hub-core.js
+  [PASSOU] Arquivo protegido com hash SHA-256 idêntico à baseline vigente: assets/components/hub-rules.js
+  [PASSOU] Arquivo protegido com hash SHA-256 idêntico à baseline vigente: assets/components/hub-rules-ar.js
+  [PASSOU] Arquivo protegido com hash SHA-256 idêntico à baseline vigente: assets/components/hub-state-ar.js
+  [PASSOU] Arquivo protegido com hash SHA-256 idêntico à baseline vigente: assets/components/hub-ingest-adapter-ar.js
+  [PASSOU] Arquivo protegido com hash SHA-256 idêntico à baseline vigente: assets/components/hub-snapshot-reader.js
+  [PASSOU] Arquivo protegido com hash SHA-256 idêntico à baseline vigente: assets/components/hub-data-source.js
+  [PASSOU] Arquivo protegido com hash SHA-256 idêntico à baseline vigente: assets/components/hub-utils.js
+  [PASSOU] Arquivo protegido com hash SHA-256 idêntico à baseline vigente: package.json
+== Fase 7B · garantias estáticas da própria suíte ==
+  [PASSOU] Esta suíte não usa eval() fora do bootstrap documentado de módulos browser-style (mesmo padrão de testar-fase4.js)
+  [PASSOU] Esta suíte não escreveu nenhum arquivo durante a execução (nenhum dado é escrito)
+  [PASSOU] Esta suíte nunca acionou o fetch real do ambiente (Node 22+ expõe fetch nativo, mas nenhuma chamada real ocorreu — todo fetchImpl foi mockado)
+
+GRUPOS TESTADOS: 15
+TOTAL: 146 casos | APROVADOS: 146 | REPROVADOS: 0
+
+> hub-comlurb@1.0.0 test:fase7c
+> node testes/testar-fase7c.js .
+
+
+============================================================
+HUB COMLURB · Fase 7C · relatório de testes
+============================================================
+
+[OK]   Fase 7C · resolverLive — extração e chamada única — 9/9
+[OK]   Fase 7C · resolverSnapshot — estados aceitos/rejeitados, chamada única, contrato de três coleções — 14/14
+[OK]   Fase 7C · providers finos — nunca chamam Adapter/Reader de novo, falha nunca vira estrutura vazia — 3/3
+[OK]   Fase 7C · construirChave — chave ausente e incompleta (cenário 23) — 4/4
+[OK]   Fase 7C · compararColecaoPorChave — equivalência, ausência, adição, valor, tipo, ordem, duplicidade, null×ausente — 16/16
+[OK]   Fase 7C · compararPeriodos — reconhecimento correto, ordem não semântica — 3/3
+[OK]   Fase 7C · compararColecoesDTE — múltiplas coleções, contagem, determinismo, coleção ausente — 8/8
+[OK]   Fase 7C · classificar — seis estados exigidos — 7/7
+[OK]   Fase 7C · limitarParaExibicao — amostra limitada, contagem total nunca truncada — 5/5
+[OK]   Fase 7C · integração — HUB.dataSource.resolver("engenharia-dte","compare",{compareProvider}) — 2/2
+[OK]   Fase 7C · não aplicação de regras de negócio (cenário 19) — 4/4
+[OK]   Fase 7C · isolamento — sem link na Home, sem link no painel executivo (cenário 15) — 3/3
+[OK]   Fase 7C · avisos obrigatórios (cenário 16) — 3/3
+[OK]   Fase 7C · preservação integral dos arquivos compartilhados (cenário 20) — 12/12
+
+------------------------------------------------------------
+TOTAL Fase 7C: 93 aprovados, 0 reprovados, 93 no total.
+------------------------------------------------------------
+
+
+> hub-comlurb@1.0.0 test:confiabilidade
+> node testes/testar-confiabilidade-p1.js .
+
+
+=== Confiabilidade P1 — resultado da suíte ===
+
+== Engenharia · rótulos lidos do Relatório Mensal DTE existem na fixture real ==
+  [PASSOU] O painel declara rótulos lidos do relatório DTE
+  [PASSOU] Rótulo encontrado na fixture: ETR TOTAL
+  [PASSOU] Rótulo encontrado na fixture: CHORUME ACUMULADO
+  [PASSOU] Rótulo encontrado na fixture: CTR SERIOPEDICA
+  [PASSOU] Rótulo encontrado na fixture: FROTA TOTAL
+  [PASSOU] Rótulo encontrado na fixture: TOTAL EM OPERACAO
+  [PASSOU] Rótulo encontrado na fixture: VALOR TOTAL DE HORAS EXTRAS
+  [PASSOU] Rótulo encontrado na fixture: QTDE PESAGENS > 10% PBT / QTDE PESAGENS TOTAL
+  [PASSOU] Rótulo encontrado na fixture: QUANTIDADES INTERVENCOES HIDRAULICAS E ELETRICAS E OUTRAS
+  [PASSOU] Rótulo encontrado na fixture: REFRIGERACAO
+  [PASSOU] Rótulo encontrado na fixture: MANUTENCAO DE ECOPONTOS
+== chamados-1746 · data-cutoff.json válido e coerente com o cubo ==
+  [PASSOU] data-cutoff.json é JSON válido
+  [PASSOU] Campo modulo corresponde à pasta
+  [PASSOU] Fonte analítica declarada é o cubo da pasta
+  [PASSOU] competencia_mais_recente no formato AAAA-MM
+  [PASSOU] data_corte no formato AAAA-MM-DD
+  [PASSOU] historico_congelado_ate no formato AAAA-MM
+  [PASSOU] Data de corte é posterior ao fim da competência
+  [PASSOU] Histórico congelado termina antes da competência mais recente
+  [PASSOU] Cubo carregado
+  [PASSOU] Último mês do cubo corresponde à competência do corte
+  [PASSOU] Recorte mensal do cubo corresponde à competência do corte
+  [PASSOU] Total acumulado 2026 igual à soma da série mensal
+== ouvidoria · data-cutoff.json válido e coerente com o cubo ==
+  [PASSOU] data-cutoff.json é JSON válido
+  [PASSOU] Campo modulo corresponde à pasta
+  [PASSOU] Fonte analítica declarada é o cubo da pasta
+  [PASSOU] competencia_mais_recente no formato AAAA-MM
+  [PASSOU] data_corte no formato AAAA-MM-DD
+  [PASSOU] historico_congelado_ate no formato AAAA-MM
+  [PASSOU] Data de corte é posterior ao fim da competência
+  [PASSOU] Histórico congelado termina antes da competência mais recente
+  [PASSOU] Cubo carregado
+  [PASSOU] Último mês do cubo corresponde à competência do corte
+  [PASSOU] Recorte mensal do cubo corresponde à competência do corte
+  [PASSOU] Total acumulado 2026 igual à soma da série mensal
+== chamados-1746/index.html · competência e corte exibidos a partir de data-cutoff.json ==
+  [PASSOU] Elemento dataCutoff presente e oculto por padrão
+  [PASSOU] Página lê data-cutoff.json
+  [PASSOU] carregarCorte é chamada na inicialização
+  [PASSOU] Nenhuma data de corte fixa no HTML
+== ouvidoria/index.html · competência e corte exibidos a partir de data-cutoff.json ==
+  [PASSOU] Elemento dataCutoff presente e oculto por padrão
+  [PASSOU] Página lê data-cutoff.json
+  [PASSOU] carregarCorte é chamada na inicialização
+  [PASSOU] Nenhuma data de corte fixa no HTML
+== Snapshot · avaliação de defasagem da fonte ==
+  [PASSOU] avaliarDefasagem exportada
+  [PASSOU] Janela terminando em mai/2026, executada em out/2026: 4 competências fechadas sem dado
+  [PASSOU] … e é defasada
+  [PASSOU] Competência do mês anterior está em dia
+  [PASSOU] Uma competência de atraso fica dentro do limite
+  [PASSOU] Duas competências de atraso atingem o limite
+  [PASSOU] Virada de ano: nov/2026 executada em jan/2027
+  [PASSOU] Período anual não é avaliado como mensal
+  [PASSOU] Período vazio não é avaliado
+  [PASSOU] Limite configurado
+  [PASSOU] Relatório traz a linha de defasagem
+  [PASSOU] Relatório sem avaliação não inventa linha de defasagem
+== Módulos oficiais · scripts embutidos compilam ==
+  [PASSOU] Governança Corporativa: 0 script(s) embutido(s) sem erro de sintaxe
+  [PASSOU] Acordo de Resultados: 1 script(s) embutido(s) sem erro de sintaxe
+  [PASSOU] Engenharia e Operações: 2 script(s) embutido(s) sem erro de sintaxe
+  [PASSOU] IPL: 1 script(s) embutido(s) sem erro de sintaxe
+  [PASSOU] Território Operacional: 1 script(s) embutido(s) sem erro de sintaxe
+  [PASSOU] Performance dos Contratos de Receita: 0 script(s) embutido(s) sem erro de sintaxe
+  [PASSOU] Chamados 1746: 4 script(s) embutido(s) sem erro de sintaxe
+  [PASSOU] Ouvidoria Operacional: 4 script(s) embutido(s) sem erro de sintaxe
+  [PASSOU] Catálogo lista módulos oficiais
+
+GRUPOS TESTADOS: 7
+TOTAL: 64 casos | APROVADOS: 64 | REPROVADOS: 0
+
+> hub-comlurb@1.0.0 test:cobertura-ap
+> node testes/testar-cobertura-ap.js .
+
+== chamados-1746 · toda lista de AP concilia com o total do nó ==
+  [PASSOU] Cubo carregado
+  [PASSOU] Há listas de AP no cubo
+  [PASSOU] Nenhuma lista de AP com soma diferente do total (2025 e 2026)
+  [PASSOU] Somente AP1 a AP5 como categoria de AP
+  [PASSOU] Rótulo SEM AP ausente do cubo
+== ouvidoria · toda lista de AP concilia com o total do nó ==
+  [PASSOU] Cubo carregado
+  [PASSOU] Há listas de AP no cubo
+  [PASSOU] Nenhuma lista de AP com soma diferente do total (2025 e 2026)
+  [PASSOU] Somente AP1 a AP5 como categoria de AP
+  [PASSOU] Rótulo SEM AP ausente do cubo
+== Espelhos em assets/data idênticos aos cubos dos módulos ==
+  [PASSOU] assets/data/chamados-1746/chamados_cube.js idêntico a chamados-1746/chamados_cube.js
+  [PASSOU] assets/data/ouvidoria/ouvidoria_cube.js idêntico a ouvidoria/ouvidoria_cube.js
+== 1746-historico/data.js · AP concilia com os cubos ==
+  [PASSOU] Dados carregados
+  [PASSOU] Rótulo SEM AP ausente
+  [PASSOU] chamados-1746 · soma das APs 2025 = total do cubo
+  [PASSOU] chamados-1746 · soma das APs 2026 = total do cubo
+  [PASSOU] chamados-1746 · AP1 igual ao cubo
+  [PASSOU] chamados-1746 · AP2 igual ao cubo
+  [PASSOU] chamados-1746 · AP3 igual ao cubo
+  [PASSOU] chamados-1746 · AP4 igual ao cubo
+  [PASSOU] chamados-1746 · AP5 igual ao cubo
+  [PASSOU] ouvidoria · soma das APs 2025 = total do cubo
+  [PASSOU] ouvidoria · soma das APs 2026 = total do cubo
+  [PASSOU] ouvidoria · AP1 igual ao cubo
+  [PASSOU] ouvidoria · AP2 igual ao cubo
+  [PASSOU] ouvidoria · AP3 igual ao cubo
+  [PASSOU] ouvidoria · AP4 igual ao cubo
+  [PASSOU] ouvidoria · AP5 igual ao cubo
+  [PASSOU] Agosto · AP3 de Chamados igual à base auditável fechada AGO/2026
+  [PASSOU] Agosto · AP3 de Ouvidoria igual à base auditável fechada AGO/2026
+  [PASSOU] Agosto · soma das APs de Chamados = total de agosto
+  [PASSOU] Agosto · soma das APs de Ouvidoria = total de agosto
+== 1746-timeline/data.js · AP concilia com os cubos ==
+  [PASSOU] Dados carregados
+  [PASSOU] Rótulo SEM AP ausente
+  [PASSOU] chamados-1746 · soma das APs 2025 = total do cubo
+  [PASSOU] chamados-1746 · soma das APs 2026 = total do cubo
+  [PASSOU] chamados-1746 · AP1 igual ao cubo
+  [PASSOU] chamados-1746 · AP2 igual ao cubo
+  [PASSOU] chamados-1746 · AP3 igual ao cubo
+  [PASSOU] chamados-1746 · AP4 igual ao cubo
+  [PASSOU] chamados-1746 · AP5 igual ao cubo
+  [PASSOU] ouvidoria · soma das APs 2025 = total do cubo
+  [PASSOU] ouvidoria · soma das APs 2026 = total do cubo
+  [PASSOU] ouvidoria · AP1 igual ao cubo
+  [PASSOU] ouvidoria · AP2 igual ao cubo
+  [PASSOU] ouvidoria · AP3 igual ao cubo
+  [PASSOU] ouvidoria · AP4 igual ao cubo
+  [PASSOU] ouvidoria · AP5 igual ao cubo
+  [PASSOU] Agosto · AP3 de Chamados igual à base auditável fechada AGO/2026
+  [PASSOU] Agosto · AP3 de Ouvidoria igual à base auditável fechada AGO/2026
+  [PASSOU] Agosto · soma das APs de Chamados = total de agosto
+  [PASSOU] Agosto · soma das APs de Ouvidoria = total de agosto
+== chamados-1746 · data-cutoff.json e valores protegidos da realocação AGO/2026 ==
+  [PASSOU] Acumulado 2025 · total declarado = cubo
+  [PASSOU] Acumulado 2025 · sem classificação = 0
+  [PASSOU] Acumulado 2025 · cobertura 100%
+  [PASSOU] Acumulado 2026 · total declarado = cubo
+  [PASSOU] Acumulado 2026 · sem classificação = 0
+  [PASSOU] Acumulado 2026 · cobertura 100%
+  [PASSOU] Registro de regularização declara destino AP3
+  [PASSOU] Registro de regularização declara totais inalterados
+  [PASSOU] Quantidades regularizadas declaradas
+  [PASSOU] AP3 acumulado protegido (2025, 2026)
+== ouvidoria · data-cutoff.json e valores protegidos da realocação AGO/2026 ==
+  [PASSOU] Acumulado 2025 · total declarado = cubo
+  [PASSOU] Acumulado 2025 · sem classificação = 0
+  [PASSOU] Acumulado 2025 · cobertura 100%
+  [PASSOU] Acumulado 2026 · total declarado = cubo
+  [PASSOU] Acumulado 2026 · sem classificação = 0
+  [PASSOU] Acumulado 2026 · cobertura 100%
+  [PASSOU] Registro de regularização declara destino AP3
+  [PASSOU] Registro de regularização declara totais inalterados
+  [PASSOU] Quantidades regularizadas declaradas
+  [PASSOU] AP3 acumulado protegido (2025, 2026)
+TOTAL: 72 casos | APROVADOS: 72 | REPROVADOS: 0
+
+> hub-comlurb@1.0.0 test:cascata-territorial
+> node testes/testar-cascata-territorial.js .
+
+== 1746-timeline/cascade_data.js · todo bairro tem AP e gerência ==
+  [PASSOU] Cascata carregada
+  [PASSOU] Há linhas de bairro na cascata
+  [PASSOU] Nenhum bairro fora de AP1 a AP5
+  [PASSOU] Nenhum bairro sem gerência
+  [PASSOU] Rótulo SEM AP ausente da cascata
+== Cascata × GeoJSON oficial · AP e gerência por bairro ==
+  [PASSOU] Bairros distintos na cascata
+  [PASSOU] Todo bairro da cascata tem polígono no GeoJSON (com equivalência de grafia)
+  [PASSOU] AP e gerência de todo bairro iguais às do GeoJSON
+== Bairros corrigidos no registro CAS-01 ==
+  [PASSOU] BRAZ DE PINA presente na cascata
+  [PASSOU] BRAZ DE PINA em AP3/NG11P em todas as linhas
+  [PASSOU] OSWALDO CRUZ presente na cascata
+  [PASSOU] OSWALDO CRUZ em AP3/NG15H em todas as linhas
+TOTAL: 12 casos | APROVADOS: 12 | REPROVADOS: 0

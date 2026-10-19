@@ -1,0 +1,30 @@
+== 1. Manifestos: hashes 'antes' = base 3b41330, 'depois' = arquivos entregues
+  [OK]    DIM-01 · manifesto conferido (18 arquivos)
+  [OK]    CAS-01 · manifesto conferido (3 arquivos)
+  [OK]    TST-01 · manifesto conferido (3 arquivos)
+== 2. Patches aplicam limpos sobre a base
+  [OK]    DIM-01 · git apply --check
+  [OK]    CAS-01 · git apply --check
+== 3. Independência de DIM-01 e CAS-01
+  [OK]    nenhum arquivo em comum
+  [OK]    DIM→CAS e CAS→DIM produzem árvores idênticas
+== 4. Testes dos pacotes em cada combinação (npm ci uma vez)
+  [OK]    base · teste DIM reprova (detecta o problema) · TOTAL: 72 casos | APROVADOS: 46 | REPROVADOS: 26
+  [OK]    base · teste CAS reprova (detecta o problema) · TOTAL: 12 casos | APROVADOS: 6 | REPROVADOS: 6
+  [OK]    DIM · teste DIM aprova · TOTAL: 72 casos | APROVADOS: 72 | REPROVADOS: 0
+  [OK]    DIM sozinho não corrige a cascata (esperado) · TOTAL: 12 casos | APROVADOS: 6 | REPROVADOS: 6
+  [OK]    CAS · teste CAS aprova · TOTAL: 12 casos | APROVADOS: 12 | REPROVADOS: 0
+  [OK]    CAS sozinho não corrige AP (esperado) · TOTAL: 72 casos | APROVADOS: 46 | REPROVADOS: 26
+  [OK]    DIM+CAS · teste DIM aprova · TOTAL: 72 casos | APROVADOS: 72 | REPROVADOS: 0
+  [OK]    DIM+CAS · teste CAS aprova · TOTAL: 12 casos | APROVADOS: 12 | REPROVADOS: 0
+== 5. Regressão completa (npm test)
+  [OK]    DIM-01 · 668 aprovações · código 0
+  [OK]    CAS-01 · 668 aprovações · código 0
+  [OK]    DIM-01 + CAS-01 + TST-01 · 752 aprovações · código 0
+  [OK]    TST-01 sem DIM/CAS reprova (dependência confirmada) · 668 aprovações · código 1
+== 6. Invariantes de dados (DIM+CAS)
+  [OK]    totais, séries, tipos, gerências e bairros dos cubos idênticos; só AP mudou
+== 7. Candidato visual idêntico a base + DIM-01 + CAS-01
+  [OK]    23 arquivos do candidato idênticos ao resultado esperado
+
+RESULTADO: todas as verificações aprovadas

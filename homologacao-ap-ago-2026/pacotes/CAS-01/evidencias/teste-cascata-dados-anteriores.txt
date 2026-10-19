@@ -1,0 +1,16 @@
+== 1746-timeline/cascade_data.js · todo bairro tem AP e gerência ==
+  [PASSOU] Cascata carregada
+  [PASSOU] Há linhas de bairro na cascata
+  [FALHOU] Nenhum bairro fora de AP1 a AP5 · obtido: {"OSWALDO CRUZ":"SEM AP","BRAZ DE PINA":"SEM AP"} · esperado: {}
+  [FALHOU] Nenhum bairro sem gerência · obtido: {"OSWALDO CRUZ":"NÃO INFORMADA","BRAZ DE PINA":"NÃO INFORMADA"} · esperado: {}
+  [FALHOU] Rótulo SEM AP ausente da cascata · obtido: false · esperado: true
+== Cascata × GeoJSON oficial · AP e gerência por bairro ==
+  [PASSOU] Bairros distintos na cascata
+  [PASSOU] Todo bairro da cascata tem polígono no GeoJSON (com equivalência de grafia)
+  [FALHOU] AP e gerência de todo bairro iguais às do GeoJSON · obtido: {"OSWALDO CRUZ":{"cascata":["SEM AP","NÃO INFORMADA"],"geojson":["AP3","NG15H"]},"BRAZ DE PINA":{"cascata":["SEM AP","NÃO INFORMADA"],"geojson":["AP3","NG11P"]}} · esperado: {}
+== Bairros corrigidos no registro CAS-01 ==
+  [PASSOU] BRAZ DE PINA presente na cascata
+  [FALHOU] BRAZ DE PINA em AP3/NG11P em todas as linhas · obtido: 90 · esperado: 0
+  [PASSOU] OSWALDO CRUZ presente na cascata
+  [FALHOU] OSWALDO CRUZ em AP3/NG15H em todas as linhas · obtido: 77 · esperado: 0
+TOTAL: 12 casos | APROVADOS: 6 | REPROVADOS: 6

@@ -1,0 +1,5 @@
+| Arquivo | SHA-256 antes (26154a3) | SHA-256 depois (1693652) |
+|---|---|---|
+| `BASELINE_HOMOLOGACAO.md` | `625612dd1de2183533a3ee5f4fb2708615c44a3839089aa8eef0b1b981ed767d` | `60c27ab3f0ad32423f9cb096313523d384c6bf6312b4a61fc3db52ea3b322ad1` |
+| `package.json` | `1b742c3709e2f0ea8c879e00e77b478e25db26d75f2730f1c00936f1477c6558` | `5670e5530ef72e7ea131a47dc031d48d334d773c63ae913f8626debbb47ace5a` |
+| `testes/testar-fase7b.js` | `e55eb6f6cd1e381701f68536448b91cd183d365b28d7da33f14af2ba5ed52b7e` | `2ec617316b113d5a4a26410cd08ebf1e74b9ccaa6763bf3be014633e0fc505fe` |

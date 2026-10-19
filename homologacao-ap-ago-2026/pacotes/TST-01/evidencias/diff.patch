@@ -1,0 +1,44 @@
+diff --git a/BASELINE_HOMOLOGACAO.md b/BASELINE_HOMOLOGACAO.md
+index 13bc948..dee374e 100644
+--- a/BASELINE_HOMOLOGACAO.md
++++ b/BASELINE_HOMOLOGACAO.md
+@@ -35,6 +35,7 @@ Copiar e preencher uma linha somente depois da aprovação:
+ | 05/10/2026 | Ouvidoria | `OUV-2026-10-05-TEC-01` | Set/2026. Corte em 05/10/2026 | Série operacional preservada, PCO preservado, AP acumulada reconciliada por `SEM AP (AGO)`, aliases cartográficos, espelhos e rastreabilidade dimensional; aceite independente T1–T10 | Greicy Moreira | Aceite técnico independente aprovado — T1 a T10 |
+ | 19/10/2026 | Chamados 1746 | `CHA-2026-10-19-DIM-01` | Set/2026. Corte em 05/10/2026 (inalterado) | Regularização de AP: `SEM AP (AGO)` → AP3 (478 em 2025; 701 em 2026), linhas com AP nula no fechamento de 04/09/2026 e AP3 atribuída depois por bairro (6 bairros, todos AP3 no GeoJSON oficial); totais inalterados; teste `testes/testar-cobertura-ap.js` | Greicy Moreira | Executado. Aceite independente pendente |
+ | 19/10/2026 | Ouvidoria | `OUV-2026-10-19-DIM-01` | Set/2026. Corte em 05/10/2026 (inalterado) | Regularização de AP: `SEM AP (AGO)` → AP3 (74 em 2025; 116 em 2026), linhas com AP nula no fechamento de 04/09/2026 e AP3 atribuída depois por bairro (7 bairros, todos AP3 no GeoJSON oficial); totais e PCO inalterados; teste `testes/testar-cobertura-ap.js` | Greicy Moreira | Executado. Aceite independente pendente |
++| 19/10/2026 | UrbanFlow Core · regressão | `TST-2026-10-19-01` | Não se aplica | Inclusão de `test:cobertura-ap` (DIM-01) e `test:cascata-territorial` (CAS-01) no `npm test`; hash protegido de `package.json` na Fase 7B atualizado de `1b742c37…` para `5670e553…`, com registro no próprio teste | Greicy Moreira | Executado. Depende do aceite de DIM-01 e CAS-01. Aceite independente pendente |
+ | 15/09/2026 | Engenharia e Operações | `DTE-2026-09-15-REV-01` | Fontes dinâmicas; contingência local de frota até jul/2026 | Sintaxe, acessibilidade estática, navegação, séries nulas, janela móvel, períodos do snapshot e regressão geral | Greicy Moreira | Estrutura técnica aprovada. Conciliação com as fontes publicadas e validação visual pendentes |
+ | 15/09/2026 | Território Operacional | `TER-2026-09-15-REV-01` | Cadastro local sem data de referência formal | 342 unidades geocodificadas, duas camadas territoriais, filtros, navegação, acessibilidade estática e regressão geral | Greicy Moreira | Estrutura técnica aprovada. Validação visual publicada e data de referência da fonte pendentes |
+ 
+diff --git a/package.json b/package.json
+index 6de74d3..39bfb49 100644
+--- a/package.json
++++ b/package.json
+@@ -12,7 +12,9 @@
+     "test:fase7b": "node testes/testar-fase7b.js .",
+     "test:fase7c": "node testes/testar-fase7c.js .",
+     "test:confiabilidade": "node testes/testar-confiabilidade-p1.js .",
+-    "test:regression": "npm run test:selftest && npm run test:fase4 && npm run test:fase5 && npm run test:fase6 && npm run test:fase7a && npm run test:fase7b && npm run test:fase7c && npm run test:confiabilidade",
++    "test:cobertura-ap": "node testes/testar-cobertura-ap.js .",
++    "test:cascata-territorial": "node testes/testar-cascata-territorial.js .",
++    "test:regression": "npm run test:selftest && npm run test:fase4 && npm run test:fase5 && npm run test:fase6 && npm run test:fase7a && npm run test:fase7b && npm run test:fase7c && npm run test:confiabilidade && npm run test:cobertura-ap && npm run test:cascata-territorial",
+     "test": "npm run test:regression",
+     "snapshot": "node snapshot/run.js",
+     "snapshot:verify-paths": "node snapshot/run.js verify-paths",
+diff --git a/testes/testar-fase7b.js b/testes/testar-fase7b.js
+index 023af61..76728cc 100644
+--- a/testes/testar-fase7b.js
++++ b/testes/testar-fase7b.js
+@@ -719,7 +719,11 @@ return carregarLiveFixture().then(function (resultadoFixtureReferencia) {
+     // Atualizado no pacote de confiabilidade 1 (out/2026): inclusão da suíte
+     // test:confiabilidade no npm test. Hash anterior:
+     // cc95db695f37b76412c7e498a3792439ad94141fe9c8053e77391babd68bfde6
+-    "package.json": "1b742c3709e2f0ea8c879e00e77b478e25db26d75f2730f1c00936f1477c6558"
++    // Atualizado no pacote TST-01 (19/10/2026): inclusão das suítes
++    // test:cobertura-ap (DIM-01) e test:cascata-territorial (CAS-01) no
++    // npm test. Hash anterior:
++    // 1b742c3709e2f0ea8c879e00e77b478e25db26d75f2730f1c00936f1477c6558
++    "package.json": "5670e5530ef72e7ea131a47dc031d48d334d773c63ae913f8626debbb47ace5a"
+   };
+   Object.keys(HASHES_ESPERADOS).forEach(function (rel) {
+     var abs = path.join(raiz, rel);
