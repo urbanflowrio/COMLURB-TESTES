@@ -1,0 +1,49 @@
+name: Homologacao AP agosto 2026 (DIM-01, CAS-01, TST-01)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/homologacao-ap-ago-2026.yml'
+      - 'homologacao-ap-ago-2026/**'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  verificar-pacotes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter ambiente de testes
+        uses: actions/checkout@v4
+        with:
+          path: testes
+      - name: Obter HUB oficial no commit base dos pacotes (somente leitura)
+        uses: actions/checkout@v4
+        with:
+          repository: urbanflowrio/COMLURB
+          ref: 3b41330fd394b4b6ed2b595f160522d133750f93
+          path: base
+          fetch-depth: 0
+      - name: Conferir commit base
+        run: |
+          cd base
+          test "$(git rev-parse --short=7 HEAD)" = "3b41330" || { echo "Commit base inesperado: $(git rev-parse HEAD)"; exit 1; }
+          rm -rf .git
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Instalar dependencias do HUB base
+        run: cd base && npm ci --no-audit --no-fund
+      - name: Verificar pacotes, combinacoes, regressao e candidato visual
+        run: |
+          set -o pipefail
+          bash testes/homologacao-ap-ago-2026/verificar-pacotes.sh \
+            testes/homologacao-ap-ago-2026/pacotes \
+            base \
+            testes/homologacao-ap-ago-2026/candidato | tee verificacao.log
+      - name: Publicar log da verificacao
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verificacao-ap-ago-2026
+          path: verificacao.log
