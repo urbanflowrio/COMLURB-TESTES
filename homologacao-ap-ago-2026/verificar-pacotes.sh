@@ -98,12 +98,24 @@ process.exit(ok?0:1);
 EOF
 
 if [ -n "$CAND" ]; then
-  echo "== 7. Candidato visual idêntico a base + DIM-01 + CAS-01"
+  echo "== 7. Candidato visual: identidade completa, exceto supressão textual autorizada"
   n=0; d=0
   while IFS= read -r -d '' f; do rel="${f#$CAND/}"; n=$((n+1))
-    cmp -s "$f" "$TMP/dimcas/$rel" || { d=$((d+1)); erro "candidato difere: $rel"; }
+    if [[ "$rel" == "chamados-1746/index.html" || "$rel" == "ouvidoria/index.html" ]]; then
+      # Única exceção visual autorizada: remover explicação obsoleta de agosto.
+      python3 - "$TMP/dimcas/$rel" "$f" <<'PY' || { d=$((d+1)); erro "candidato difere: $rel"; }
+import pathlib, sys
+origem = pathlib.Path(sys.argv[1]).read_bytes()
+candidato = pathlib.Path(sys.argv[2]).read_bytes()
+# Literal em UTF-8, evitando interpretação de escapes da documentação.
+trecho = " • Agosto/2025 e agosto/2026 constam no histórico oficial congelado sem classificação de AP. Os registros aparecem como 'Sem AP (Ago)'.".encode("utf-8")
+sys.exit(0 if origem.count(trecho) == 1 and origem.replace(trecho, b"") == candidato else 1)
+PY
+    else
+      cmp -s "$f" "$TMP/dimcas/$rel" || { d=$((d+1)); erro "candidato difere: $rel"; }
+    fi
   done < <(find "$CAND" -type f -print0)
-  [ $d = 0 ] && ok "$n arquivos do candidato idênticos ao resultado esperado"
+  [ $d = 0 ] && ok "$n arquivos do candidato conferidos, com exceção textual estritamente validada"
 fi
 
 echo
